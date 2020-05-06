@@ -1,0 +1,829 @@
+NOTICE   [2020-Apr-17 10:49:53.437412] (...a\app\parameters.cpp:104) : Parameters:
+NOTICE   [2020-Apr-17 10:49:53.439413] (...a\app\parameters.cpp:107) : group = cashflow : active = Y
+NOTICE   [2020-Apr-17 10:49:53.439413] (...a\app\parameters.cpp:107) : group = cashflow : outputFileName = flows_usd_base.csv
+NOTICE   [2020-Apr-17 10:49:53.439413] (...a\app\parameters.cpp:107) : group = curves : active = Y
+NOTICE   [2020-Apr-17 10:49:53.439413] (...a\app\parameters.cpp:107) : group = curves : configuration = default
+NOTICE   [2020-Apr-17 10:49:53.440413] (...a\app\parameters.cpp:107) : group = curves : grid = 240,1M
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = curves : outputFileName = curves_usd_base.csv
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = markets : eqcalibration = default
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = markets : fxcalibration = default
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = markets : lgmcalibration = default
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = markets : pricing = default
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = markets : simulation = default
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = npv : active = Y
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = npv : baseCurrency = USD
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = npv : outputFileName = npv_usd_base.csv
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = setup : asofDate = 2016-02-05
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = setup : conventionsFile = ../../Input/conventions.xml
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = setup : curveConfigFile = curveconfig.xml
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = setup : fixingDataFile = ../../Input/fixings_20160205.txt
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = setup : implyTodaysFixings = N
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = setup : inputPath = Input
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = setup : logFile = log_usd_base.txt
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = setup : logMask = 63
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = setup : marketConfigFile = todaysmarket_usd_base.xml
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = setup : marketDataFile = ../../Input/market_20160205.txt
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = setup : observationModel = None
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = setup : outputPath = Output
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = setup : portfolioFile = portfolio.xml
+NOTICE   [2020-Apr-17 10:49:53.459412] (...a\app\parameters.cpp:107) : group = setup : pricingEnginesFile = ../../Input/pricingengine.xml
+NOTICE   [2020-Apr-17 10:49:53.459412] (...\orea\app\oreapp.cpp:239) : Observation Mode is None
+NOTICE   [2020-Apr-17 10:49:53.460412] (...s\orea\app\oreapp.cpp:85) : ORE starting
+NOTICE   [2020-Apr-17 10:49:53.461412] (...\orea\app\oreapp.cpp:918) : Building today's market
+DEBUG    [2020-Apr-17 10:49:53.462413] (...ion\conventions.cpp:1051) : Loading Convention EUR-ZERO-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.462413] (...ion\conventions.cpp:1051) : Loading Convention EUR-ZERO-CONVENTIONS-TENOR-BASED
+DEBUG    [2020-Apr-17 10:49:53.462413] (...ion\conventions.cpp:1051) : Loading Convention CHF-ZERO-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.462413] (...ion\conventions.cpp:1051) : Loading Convention GBP-ZERO-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.462413] (...ion\conventions.cpp:1051) : Loading Convention USD-ZERO-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.462413] (...ion\conventions.cpp:1051) : Loading Convention CDS-STANDARD-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention USD-LIBOR-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention USD-FED-FUNDS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention CHF-LIBOR-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention CHF-TOIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention CHF-SARON-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention DKK-DKKOIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention SEK-SIOR-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention EUR-EONIA-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention EUR-EURIBOR-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention EUR-DEPOSIT
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention GBP-SONIA-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention GBP-LIBOR-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention GBP-DEPOSIT
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention CAD-DEPOSIT
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention CAD-CORRA-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention CZK-DEPOSIT
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention DKK-DEPOSIT
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention NOK-DEPOSIT
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention SEK-DEPOSIT
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention HUF-DEPOSIT
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention PLN-DEPOSIT
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention SGD-DEPOSIT
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention NZD-DEPOSIT
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention JPY-LIBOR-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention JPY-TIBOR-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention AUD-BBSW-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention SEK-STIBOR-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention MXN-TIIE-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention RUB-MOSPRIME-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention BRL-GENERIC-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention CLP-GENERIC-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention CNY-GENERIC-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention IDR-GENERIC-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.463413] (...ion\conventions.cpp:1051) : Loading Convention INR-GENERIC-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.464412] (...ion\conventions.cpp:1051) : Loading Convention KRW-GENERIC-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.464412] (...ion\conventions.cpp:1051) : Loading Convention MYR-GENERIC-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.464412] (...ion\conventions.cpp:1051) : Loading Convention PHP-GENERIC-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.464412] (...ion\conventions.cpp:1051) : Loading Convention TWD-GENERIC-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.464412] (...ion\conventions.cpp:1051) : Loading Convention USD-LIBOR-3M-FUTURES-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.464412] (...ion\conventions.cpp:1051) : Loading Convention EURIBOR-3M-FUTURES-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.464412] (...ion\conventions.cpp:1051) : Loading Convention AUD-BBSW-3M-FUTURES-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.464412] (...ion\conventions.cpp:1051) : Loading Convention JPY-LIBOR-3M-FUTURES-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.464412] (...ion\conventions.cpp:1051) : Loading Convention SEK-STIBOR-3M-FUTURES-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.464412] (...ion\conventions.cpp:1051) : Loading Convention EUR-12M-FRA-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.464412] (...ion\conventions.cpp:1051) : Loading Convention EUR-6M-FRA-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.464412] (...ion\conventions.cpp:1051) : Loading Convention EUR-3M-FRA-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.464412] (...ion\conventions.cpp:1051) : Loading Convention EUR-1M-FRA-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.464412] (...ion\conventions.cpp:1051) : Loading Convention AUD-3M-FRA-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.464412] (...ion\conventions.cpp:1051) : Loading Convention CHF-6M-FRA-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.464412] (...ion\conventions.cpp:1051) : Loading Convention CHF-3M-FRA-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.464412] (...ion\conventions.cpp:1051) : Loading Convention GBP-3M-FRA
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention GBP-6M-FRA
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention USD-6M-FRA-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention USD-3M-FRA-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention USD-1M-FRA-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention CAD-FRA-3M
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention CZK-6M-FRA
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention CZK-3M-FRA
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention NZD-3M-FRA
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention HUF-6M-FRA
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention PLN-6M-FRA
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention PLN-3M-FRA
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention SEK-3M-FRA
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention JPY-6M-FRA-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention JPY-3M-FRA-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention EUR-CMS-1Y
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention EUR-CMS-2Y
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention EUR-CMS-5Y
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention EUR-CMS-10Y
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention EUR-CMS-20Y
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention EUR-CMS-30Y
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention USD-CMS-1Y
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention USD-CMS-2Y
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention USD-CMS-5Y
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention USD-CMS-10Y
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention USD-CMS-20Y
+DEBUG    [2020-Apr-17 10:49:53.465412] (...ion\conventions.cpp:1051) : Loading Convention USD-CMS-30Y
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention GBP-CMS-1Y
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention GBP-CMS-2Y
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention GBP-CMS-5Y
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention GBP-CMS-10Y
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention GBP-CMS-20Y
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention GBP-CMS-30Y
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention CHF-CMS-1Y
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention CHF-CMS-30Y
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention JPY-CMS-1Y
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention JPY-CMS-30Y
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention EUR-6M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention EUR-1M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention EUR-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention EUR-12M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention USD-1M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention USD-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention USD-1M-SWAP-ANNUAL-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention USD-3M-SWAP-ANNUAL-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention USD-6M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention CHF-6M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention CHF-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention AUD-6M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention AUD-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.466412] (...ion\conventions.cpp:1051) : Loading Convention CAD-3M-SWAP-CONVENTIONS-1Y
+DEBUG    [2020-Apr-17 10:49:53.467412] (...ion\conventions.cpp:1051) : Loading Convention CAD-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.467412] (...ion\conventions.cpp:1051) : Loading Convention DKK-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.467412] (...ion\conventions.cpp:1051) : Loading Convention DKK-6M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.467412] (...ion\conventions.cpp:1051) : Loading Convention NOK-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.467412] (...ion\conventions.cpp:1051) : Loading Convention NOK-6M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.467412] (...ion\conventions.cpp:1051) : Loading Convention JPY-LIBOR-6M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.467412] (...ion\conventions.cpp:1051) : Loading Convention JPY-LIBOR-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.467412] (...ion\conventions.cpp:1051) : Loading Convention JPY-TIBOR-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.467412] (...ion\conventions.cpp:1051) : Loading Convention SEK-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention SEK-6M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention SGD-6M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention GBP-6M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention GBP-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention CZK-6M-SWAP
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention CZK-3M-SWAP
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention HUF-6M-SWAP
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention PLN-6M-SWAP
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention PLN-3M-SWAP
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention NZD-6M-SWAP
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention NZD-3M-SWAP
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention MXN-28D-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention HKD-3M-SWAP
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention INR-3M-SWAP
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention INR-6M-SWAP
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention KRW-3M-SWAP
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention MYR-3M-SWAP
+DEBUG    [2020-Apr-17 10:49:53.495412] (...ion\conventions.cpp:1051) : Loading Convention RUB-3M-SWAP
+DEBUG    [2020-Apr-17 10:49:53.496412] (...ion\conventions.cpp:1051) : Loading Convention THB-6M-SWAP
+DEBUG    [2020-Apr-17 10:49:53.496412] (...ion\conventions.cpp:1051) : Loading Convention COP-3M-SWAP
+WARNING  [2020-Apr-17 10:49:53.496412] (...ion\conventions.cpp:1057) : Exception parsing convention XML Node (id = COP-3M-SWAP) : must have period 1D
+DEBUG    [2020-Apr-17 10:49:53.496412] (...ion\conventions.cpp:1051) : Loading Convention PHP-3M-SWAP
+DEBUG    [2020-Apr-17 10:49:53.496412] (...ion\conventions.cpp:1051) : Loading Convention TWD-3M-SWAP
+DEBUG    [2020-Apr-17 10:49:53.496412] (...ion\conventions.cpp:1051) : Loading Convention ZAR-3M-SWAP
+DEBUG    [2020-Apr-17 10:49:53.496412] (...ion\conventions.cpp:1051) : Loading Convention BRL-GENERIC-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.496412] (...ion\conventions.cpp:1051) : Loading Convention CLP-GENERIC-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.496412] (...ion\conventions.cpp:1051) : Loading Convention CNY-GENERIC-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.496412] (...ion\conventions.cpp:1051) : Loading Convention IDR-GENERIC-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.496412] (...ion\conventions.cpp:1051) : Loading Convention INR-GENERIC-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.496412] (...ion\conventions.cpp:1051) : Loading Convention KRW-GENERIC-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.496412] (...ion\conventions.cpp:1051) : Loading Convention MYR-GENERIC-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.496412] (...ion\conventions.cpp:1051) : Loading Convention PHP-GENERIC-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.496412] (...ion\conventions.cpp:1051) : Loading Convention TWD-GENERIC-3M-SWAP-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.496412] (...ion\conventions.cpp:1051) : Loading Convention EUR-OIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.496412] (...ion\conventions.cpp:1051) : Loading Convention DKK-OIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention SEK-OIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention CHF-OIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention CHF-OIS-SARON-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention USD-OIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention USD-AVERAGE-OIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention GBP-OIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention JPY-OIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention CAD-OIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention EURIBOR-3M-6M-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention EUR-EURIBOR-6M-12M-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention USD-LIBOR-3M-6M-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention USD-LIBOR-1M-3M-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention GBP-LIBOR-3M-6M-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention CHF-LIBOR-3M-6M-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention JPY-LIBOR-3M-6M-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention EUR-OIS-1M-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention USD-LIBOR-SIFMA-3M-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention GBP-USD-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.497412] (...ion\conventions.cpp:1051) : Loading Convention USD-GBP-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention EUR-USD-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention CHF-USD-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-CHF-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention EUR-GBP-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention EUR-CHF-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-NOK-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-SEK-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-MXN-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-JPY-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-CAD-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-TWD-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-KRW-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-INR-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-BRL-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-CLP-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-IDR-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-CNY-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-MYR-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-PHP-FX-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention EUR-USD-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-GBP-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention EUR-GBP-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention EUR-CHF-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-CHF-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-NOK-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.498412] (...ion\conventions.cpp:1051) : Loading Convention USD-SEK-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.499412] (...ion\conventions.cpp:1051) : Loading Convention USD-MXN-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.499412] (...ion\conventions.cpp:1051) : Loading Convention USD-MXN-3M-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.499412] (...ion\conventions.cpp:1051) : Loading Convention USD-JPY-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.499412] (...ion\conventions.cpp:1051) : Loading Convention USD-CAD-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.499412] (...ion\conventions.cpp:1051) : Loading Convention USD-BRL-GENERIC-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.499412] (...ion\conventions.cpp:1051) : Loading Convention USD-CLP-GENERIC-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.499412] (...ion\conventions.cpp:1051) : Loading Convention USD-CNY-GENERIC-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.499412] (...ion\conventions.cpp:1051) : Loading Convention USD-IDR-GENERIC-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.499412] (...ion\conventions.cpp:1051) : Loading Convention USD-INR-GENERIC-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.499412] (...ion\conventions.cpp:1051) : Loading Convention USD-KRW-GENERIC-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.499412] (...ion\conventions.cpp:1051) : Loading Convention USD-MYR-GENERIC-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.499412] (...ion\conventions.cpp:1051) : Loading Convention USD-PHP-GENERIC-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.499412] (...ion\conventions.cpp:1051) : Loading Convention USD-TWD-GENERIC-XCCY-BASIS-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.499412] (...ion\conventions.cpp:1051) : Loading Convention USD-TRY-XCCY-FIX-FLOAT-CONVENTIONS
+DEBUG    [2020-Apr-17 10:49:53.499412] (...ion\conventions.cpp:1051) : Loading Convention EUHICP_INFLATIONSWAP
+DEBUG    [2020-Apr-17 10:49:53.499412] (...ion\conventions.cpp:1051) : Loading Convention EUHICPXT_INFLATIONSWAP
+DEBUG    [2020-Apr-17 10:49:53.500412] (...ion\conventions.cpp:1051) : Loading Convention FRHICP_INFLATIONSWAP
+DEBUG    [2020-Apr-17 10:49:53.500412] (...ion\conventions.cpp:1051) : Loading Convention UKRPI_INFLATIONSWAP
+DEBUG    [2020-Apr-17 10:49:53.500412] (...ion\conventions.cpp:1051) : Loading Convention USCPI_INFLATIONSWAP
+DEBUG    [2020-Apr-17 10:49:53.500412] (...ion\conventions.cpp:1051) : Loading Convention ZACPI_INFLATIONSWAP
+DEBUG    [2020-Apr-17 10:49:53.500412] (...ion\conventions.cpp:1051) : Loading Convention EUR-CMS-10Y-2Y-CONVENTION
+DEBUG    [2020-Apr-17 10:49:53.523413] (...marketparameters.hpp:195) : TodaysMarketParameters, add market objects of type DiscountCurve: default EUR Yield/EUR/EUR-IN-USD
+DEBUG    [2020-Apr-17 10:49:53.523413] (...marketparameters.hpp:195) : TodaysMarketParameters, add market objects of type DiscountCurve: default GBP Yield/GBP/GBP-IN-USD
+DEBUG    [2020-Apr-17 10:49:53.523413] (...marketparameters.hpp:195) : TodaysMarketParameters, add market objects of type IndexCurve: default EUR-EONIA Yield/EUR/EUR1D
+DEBUG    [2020-Apr-17 10:49:53.524413] (...marketparameters.hpp:195) : TodaysMarketParameters, add market objects of type IndexCurve: default EUR-EURIBOR-3M Yield/EUR/EUR3M
+DEBUG    [2020-Apr-17 10:49:53.524413] (...marketparameters.hpp:195) : TodaysMarketParameters, add market objects of type IndexCurve: default GBP-LIBOR-3M Yield/GBP/GBP3M
+DEBUG    [2020-Apr-17 10:49:53.524413] (...marketparameters.hpp:195) : TodaysMarketParameters, add market objects of type IndexCurve: default GBP-LIBOR-6M Yield/GBP/GBP6M
+DEBUG    [2020-Apr-17 10:49:53.524413] (...marketparameters.hpp:195) : TodaysMarketParameters, add market objects of type IndexCurve: default GBP-SONIA Yield/GBP/GBP1D
+DEBUG    [2020-Apr-17 10:49:53.524413] (...marketparameters.hpp:195) : TodaysMarketParameters, add market objects of type IndexCurve: default USD-FedFunds Yield/USD/USD1D
+DEBUG    [2020-Apr-17 10:49:53.524413] (...marketparameters.hpp:195) : TodaysMarketParameters, add market objects of type IndexCurve: default USD-LIBOR-3M Yield/USD/USD3M
+DEBUG    [2020-Apr-17 10:49:53.524413] (...marketparameters.hpp:195) : TodaysMarketParameters, add market objects of type FXSpot: default EURUSD FX/EUR/USD
+DEBUG    [2020-Apr-17 10:49:53.524413] (...marketparameters.hpp:195) : TodaysMarketParameters, add market objects of type FXSpot: default GBPUSD FX/GBP/USD
+NOTICE   [2020-Apr-17 10:49:53.525412] (...\orea\app\oreapp.cpp:936) : Load curve configurations from file
+DEBUG    [2020-Apr-17 10:49:53.539413] (...rveconfigurations.cpp:54) : Added curve config with ID = EUR1D
+DEBUG    [2020-Apr-17 10:49:53.539413] (...rveconfigurations.cpp:54) : Added curve config with ID = EUR3M
+DEBUG    [2020-Apr-17 10:49:53.539413] (...rveconfigurations.cpp:54) : Added curve config with ID = GBP-IN-USD
+DEBUG    [2020-Apr-17 10:49:53.539413] (...rveconfigurations.cpp:54) : Added curve config with ID = EUR-IN-USD
+DEBUG    [2020-Apr-17 10:49:53.540413] (...rveconfigurations.cpp:54) : Added curve config with ID = GBP3M
+DEBUG    [2020-Apr-17 10:49:53.540413] (...rveconfigurations.cpp:54) : Added curve config with ID = GBP6M
+DEBUG    [2020-Apr-17 10:49:53.540413] (...rveconfigurations.cpp:54) : Added curve config with ID = GBP1D
+DEBUG    [2020-Apr-17 10:49:53.540413] (...rveconfigurations.cpp:54) : Added curve config with ID = USD3M
+DEBUG    [2020-Apr-17 10:49:53.540413] (...rveconfigurations.cpp:54) : Added curve config with ID = USD1D
+DEBUG    [2020-Apr-17 10:49:53.540413] (...rveconfigurations.cpp:54) : Added curve config with ID = GBP-IN-EUR
+NOTICE   [2020-Apr-17 10:49:53.542412] (...ketdata\csvloader.cpp:75) : CSVLoader loading from Input/../../Input/market_20160205.txt
+NOTICE   [2020-Apr-17 10:49:53.650411] (...etdata\csvloader.cpp:116) : CSVLoader completed processing Input/../../Input/market_20160205.txt
+NOTICE   [2020-Apr-17 10:49:53.651412] (...ketdata\csvloader.cpp:64) : CSVLoader loaded 7974 market data points for February 5th, 2016
+NOTICE   [2020-Apr-17 10:49:53.652413] (...ketdata\csvloader.cpp:75) : CSVLoader loading from Input/../../Input/fixings_20160205.txt
+NOTICE   [2020-Apr-17 10:49:53.690412] (...etdata\csvloader.cpp:116) : CSVLoader completed processing Input/../../Input/fixings_20160205.txt
+NOTICE   [2020-Apr-17 10:49:53.690412] (...ketdata\csvloader.cpp:69) : CSVLoader loaded 8691 fixings
+NOTICE   [2020-Apr-17 10:49:53.690412] (...ketdata\csvloader.cpp:71) : CSVLoader complete.
+NOTICE   [2020-Apr-17 10:49:53.691413] (...data\todaysmarket.cpp:72) : Todays Market Loading Fixings
+NOTICE   [2020-Apr-17 10:49:54.268412] (...arketdata\fixings.cpp:59) : Added 8691 of 8691 fixings in 0.577000 seconds
+NOTICE   [2020-Apr-17 10:49:54.268412] (...data\todaysmarket.cpp:74) : Todays Market Loading Fixing done.
+NOTICE   [2020-Apr-17 10:49:54.268412] (...data\todaysmarket.cpp:79) : Todays Market Loading Dividends
+DEBUG    [2020-Apr-17 10:49:54.268412] (...arketdata\fixings.cpp:83) : Added 0 of 0 dividends in 0.000000 seconds
+NOTICE   [2020-Apr-17 10:49:54.268412] (...data\todaysmarket.cpp:81) : Todays Market Loading Dividends done.
+NOTICE   [2020-Apr-17 10:49:54.268412] (...ata\todaysmarket.cpp:110) : Build objects in TodaysMarket configuration default
+DEBUG    [2020-Apr-17 10:49:54.268412] (...marketparameters.cpp:194) : Add spec Yield/EUR/EUR-IN-USD
+DEBUG    [2020-Apr-17 10:49:54.268412] (...marketparameters.cpp:194) : Add spec Yield/GBP/GBP-IN-USD
+DEBUG    [2020-Apr-17 10:49:54.268412] (...marketparameters.cpp:194) : Add spec Yield/EUR/EUR1D
+DEBUG    [2020-Apr-17 10:49:54.268412] (...marketparameters.cpp:194) : Add spec Yield/EUR/EUR3M
+DEBUG    [2020-Apr-17 10:49:54.268412] (...marketparameters.cpp:194) : Add spec Yield/GBP/GBP3M
+DEBUG    [2020-Apr-17 10:49:54.268412] (...marketparameters.cpp:194) : Add spec Yield/GBP/GBP6M
+DEBUG    [2020-Apr-17 10:49:54.268412] (...marketparameters.cpp:194) : Add spec Yield/GBP/GBP1D
+DEBUG    [2020-Apr-17 10:49:54.268412] (...marketparameters.cpp:194) : Add spec Yield/USD/USD1D
+DEBUG    [2020-Apr-17 10:49:54.268412] (...marketparameters.cpp:194) : Add spec Yield/USD/USD3M
+DEBUG    [2020-Apr-17 10:49:54.268412] (...marketparameters.cpp:194) : Add spec FX/EUR/USD
+DEBUG    [2020-Apr-17 10:49:54.268412] (...marketparameters.cpp:194) : Add spec FX/GBP/USD
+DEBUG    [2020-Apr-17 10:49:54.268412] (...ata\todaysmarket.cpp:120) : CurveSpec: Yield/EUR/EUR-IN-USD
+DEBUG    [2020-Apr-17 10:49:54.268412] (...ata\todaysmarket.cpp:120) : CurveSpec: Yield/GBP/GBP-IN-USD
+DEBUG    [2020-Apr-17 10:49:54.268412] (...ata\todaysmarket.cpp:120) : CurveSpec: Yield/EUR/EUR1D
+DEBUG    [2020-Apr-17 10:49:54.268412] (...ata\todaysmarket.cpp:120) : CurveSpec: Yield/EUR/EUR3M
+DEBUG    [2020-Apr-17 10:49:54.268412] (...ata\todaysmarket.cpp:120) : CurveSpec: Yield/GBP/GBP3M
+DEBUG    [2020-Apr-17 10:49:54.268412] (...ata\todaysmarket.cpp:120) : CurveSpec: Yield/GBP/GBP6M
+DEBUG    [2020-Apr-17 10:49:54.268412] (...ata\todaysmarket.cpp:120) : CurveSpec: Yield/GBP/GBP1D
+DEBUG    [2020-Apr-17 10:49:54.269411] (...ata\todaysmarket.cpp:120) : CurveSpec: Yield/USD/USD1D
+DEBUG    [2020-Apr-17 10:49:54.269411] (...ata\todaysmarket.cpp:120) : CurveSpec: Yield/USD/USD3M
+DEBUG    [2020-Apr-17 10:49:54.269411] (...ata\todaysmarket.cpp:120) : CurveSpec: FX/EUR/USD
+DEBUG    [2020-Apr-17 10:49:54.269411] (...ata\todaysmarket.cpp:120) : CurveSpec: FX/GBP/USD
+DEBUG    [2020-Apr-17 10:49:54.269411] (...tdata\curveloader.cpp:57) : required yield curve EUR3M for EUR-IN-USD not (yet) available
+DEBUG    [2020-Apr-17 10:49:54.269411] (...data\curveloader.cpp:114) : can not (yet) build EUR-IN-USD
+DEBUG    [2020-Apr-17 10:49:54.269411] (...data\curveloader.cpp:110) : can build EUR1D
+DEBUG    [2020-Apr-17 10:49:54.269411] (...data\curveloader.cpp:110) : can build EUR3M
+DEBUG    [2020-Apr-17 10:49:54.269411] (...tdata\curveloader.cpp:57) : required yield curve GBP3M for GBP-IN-USD not (yet) available
+DEBUG    [2020-Apr-17 10:49:54.269411] (...data\curveloader.cpp:114) : can not (yet) build GBP-IN-USD
+DEBUG    [2020-Apr-17 10:49:54.269411] (...data\curveloader.cpp:110) : can build GBP1D
+DEBUG    [2020-Apr-17 10:49:54.269411] (...tdata\curveloader.cpp:57) : required yield curve GBP6M for GBP3M not (yet) available
+DEBUG    [2020-Apr-17 10:49:54.269411] (...data\curveloader.cpp:114) : can not (yet) build GBP3M
+DEBUG    [2020-Apr-17 10:49:54.269411] (...data\curveloader.cpp:110) : can build GBP6M
+DEBUG    [2020-Apr-17 10:49:54.269411] (...data\curveloader.cpp:110) : can build USD1D
+DEBUG    [2020-Apr-17 10:49:54.269411] (...data\curveloader.cpp:110) : can build USD3M
+DEBUG    [2020-Apr-17 10:49:54.269411] (...data\curveloader.cpp:110) : can build EUR-IN-USD
+DEBUG    [2020-Apr-17 10:49:54.269411] (...tdata\curveloader.cpp:57) : required yield curve GBP3M for GBP-IN-USD not (yet) available
+DEBUG    [2020-Apr-17 10:49:54.269411] (...data\curveloader.cpp:114) : can not (yet) build GBP-IN-USD
+DEBUG    [2020-Apr-17 10:49:54.269411] (...data\curveloader.cpp:110) : can build GBP3M
+DEBUG    [2020-Apr-17 10:49:54.269411] (...data\curveloader.cpp:110) : can build GBP-IN-USD
+DEBUG    [2020-Apr-17 10:49:54.269411] (...data\curveloader.cpp:136) : Ordered Curves (11)
+DEBUG    [2020-Apr-17 10:49:54.270412] (...data\curveloader.cpp:138) :  0 Yield/EUR/EUR1D
+DEBUG    [2020-Apr-17 10:49:54.270412] (...data\curveloader.cpp:138) :  1 Yield/EUR/EUR3M
+DEBUG    [2020-Apr-17 10:49:54.270412] (...data\curveloader.cpp:138) :  2 Yield/GBP/GBP1D
+DEBUG    [2020-Apr-17 10:49:54.270412] (...data\curveloader.cpp:138) :  3 Yield/GBP/GBP6M
+DEBUG    [2020-Apr-17 10:49:54.270412] (...data\curveloader.cpp:138) :  4 Yield/USD/USD1D
+DEBUG    [2020-Apr-17 10:49:54.270412] (...data\curveloader.cpp:138) :  5 Yield/USD/USD3M
+DEBUG    [2020-Apr-17 10:49:54.270412] (...data\curveloader.cpp:138) :  6 Yield/EUR/EUR-IN-USD
+DEBUG    [2020-Apr-17 10:49:54.270412] (...data\curveloader.cpp:138) :  7 Yield/GBP/GBP3M
+DEBUG    [2020-Apr-17 10:49:54.270412] (...data\curveloader.cpp:138) :  8 Yield/GBP/GBP-IN-USD
+DEBUG    [2020-Apr-17 10:49:54.270412] (...data\curveloader.cpp:138) :  9 FX/EUR/USD
+DEBUG    [2020-Apr-17 10:49:54.270412] (...data\curveloader.cpp:138) : 10 FX/GBP/USD
+NOTICE   [2020-Apr-17 10:49:54.270412] (...ata\todaysmarket.cpp:131) : Loading spec Yield/EUR/EUR1D
+NOTICE   [2020-Apr-17 10:49:54.270412] (...ata\todaysmarket.cpp:144) : Building YieldCurve for asof February 5th, 2016
+DEBUG    [2020-Apr-17 10:49:54.270412] (...tdata\yieldcurve.cpp:143) : Bootstrapping YieldCurve Yield/EUR/EUR1D
+DEBUG    [2020-Apr-17 10:49:54.270412] (...tdata\yieldcurve.cpp:715) : Adding Segment Deposit with conventions "EUR-EONIA-CONVENTIONS"
+DEBUG    [2020-Apr-17 10:49:54.270412] (...tdata\yieldcurve.cpp:869) : Adding Segment OIS with conventions "EUR-OIS-CONVENTIONS"
+DEBUG    [2020-Apr-17 10:49:54.274411] (...tdata\yieldcurve.cpp:668) : Bootstrapping with 32 instruments
+NOTICE   [2020-Apr-17 10:49:54.278412] (...tdata\yieldcurve.cpp:163) : Yield curve Yield/EUR/EUR1D built
+DEBUG    [2020-Apr-17 10:49:54.278412] (...ata\todaysmarket.cpp:150) : Added YieldCurve "Yield/EUR/EUR1D" to requiredYieldCurves map
+NOTICE   [2020-Apr-17 10:49:54.278412] (...ata\todaysmarket.cpp:176) : Adding Index(EUR-EONIA) with spec Yield/EUR/EUR1D to configuration default
+NOTICE   [2020-Apr-17 10:49:54.278412] (...ata\todaysmarket.cpp:868) : Loading spec Yield/EUR/EUR1D done.
+NOTICE   [2020-Apr-17 10:49:54.278412] (...ata\todaysmarket.cpp:131) : Loading spec Yield/EUR/EUR3M
+NOTICE   [2020-Apr-17 10:49:54.278412] (...ata\todaysmarket.cpp:144) : Building YieldCurve for asof February 5th, 2016
+DEBUG    [2020-Apr-17 10:49:54.278412] (...tdata\yieldcurve.cpp:143) : Bootstrapping YieldCurve Yield/EUR/EUR3M
+DEBUG    [2020-Apr-17 10:49:54.278412] (...tdata\yieldcurve.cpp:715) : Adding Segment Deposit with conventions "EUR-EURIBOR-CONVENTIONS"
+DEBUG    [2020-Apr-17 10:49:54.279412] (...tdata\yieldcurve.cpp:820) : Adding Segment FRA with conventions "EUR-3M-FRA-CONVENTIONS"
+DEBUG    [2020-Apr-17 10:49:54.279412] (...tdata\yieldcurve.cpp:935) : Adding Segment Swap with conventions "EUR-3M-SWAP-CONVENTIONS"
+DEBUG    [2020-Apr-17 10:49:54.285412] (...tdata\yieldcurve.cpp:668) : Bootstrapping with 28 instruments
+NOTICE   [2020-Apr-17 10:49:54.297411] (...tdata\yieldcurve.cpp:163) : Yield curve Yield/EUR/EUR3M built
+DEBUG    [2020-Apr-17 10:49:54.297411] (...ata\todaysmarket.cpp:150) : Added YieldCurve "Yield/EUR/EUR3M" to requiredYieldCurves map
+NOTICE   [2020-Apr-17 10:49:54.297411] (...ata\todaysmarket.cpp:176) : Adding Index(EUR-EURIBOR-3M) with spec Yield/EUR/EUR3M to configuration default
+NOTICE   [2020-Apr-17 10:49:54.297411] (...ata\todaysmarket.cpp:868) : Loading spec Yield/EUR/EUR3M done.
+NOTICE   [2020-Apr-17 10:49:54.297411] (...ata\todaysmarket.cpp:131) : Loading spec Yield/GBP/GBP1D
+NOTICE   [2020-Apr-17 10:49:54.297411] (...ata\todaysmarket.cpp:144) : Building YieldCurve for asof February 5th, 2016
+DEBUG    [2020-Apr-17 10:49:54.298412] (...tdata\yieldcurve.cpp:143) : Bootstrapping YieldCurve Yield/GBP/GBP1D
+DEBUG    [2020-Apr-17 10:49:54.298412] (...tdata\yieldcurve.cpp:869) : Adding Segment OIS with conventions "GBP-OIS-CONVENTIONS"
+DEBUG    [2020-Apr-17 10:49:54.307412] (...tdata\yieldcurve.cpp:668) : Bootstrapping with 29 instruments
+NOTICE   [2020-Apr-17 10:49:54.312411] (...tdata\yieldcurve.cpp:163) : Yield curve Yield/GBP/GBP1D built
+DEBUG    [2020-Apr-17 10:49:54.312411] (...ata\todaysmarket.cpp:150) : Added YieldCurve "Yield/GBP/GBP1D" to requiredYieldCurves map
+NOTICE   [2020-Apr-17 10:49:54.312411] (...ata\todaysmarket.cpp:176) : Adding Index(GBP-SONIA) with spec Yield/GBP/GBP1D to configuration default
+NOTICE   [2020-Apr-17 10:49:54.312411] (...ata\todaysmarket.cpp:868) : Loading spec Yield/GBP/GBP1D done.
+NOTICE   [2020-Apr-17 10:49:54.312411] (...ata\todaysmarket.cpp:131) : Loading spec Yield/GBP/GBP6M
+NOTICE   [2020-Apr-17 10:49:54.312411] (...ata\todaysmarket.cpp:144) : Building YieldCurve for asof February 5th, 2016
+DEBUG    [2020-Apr-17 10:49:54.312411] (...tdata\yieldcurve.cpp:143) : Bootstrapping YieldCurve Yield/GBP/GBP6M
+DEBUG    [2020-Apr-17 10:49:54.312411] (...tdata\yieldcurve.cpp:715) : Adding Segment Deposit with conventions "GBP-DEPOSIT"
+DEBUG    [2020-Apr-17 10:49:54.312411] (...tdata\yieldcurve.cpp:820) : Adding Segment FRA with conventions "GBP-6M-FRA"
+DEBUG    [2020-Apr-17 10:49:54.312411] (...tdata\yieldcurve.cpp:935) : Adding Segment Swap with conventions "GBP-6M-SWAP-CONVENTIONS"
+DEBUG    [2020-Apr-17 10:49:54.314411] (...tdata\yieldcurve.cpp:668) : Bootstrapping with 26 instruments
+NOTICE   [2020-Apr-17 10:49:54.321412] (...tdata\yieldcurve.cpp:163) : Yield curve Yield/GBP/GBP6M built
+DEBUG    [2020-Apr-17 10:49:54.321412] (...ata\todaysmarket.cpp:150) : Added YieldCurve "Yield/GBP/GBP6M" to requiredYieldCurves map
+NOTICE   [2020-Apr-17 10:49:54.321412] (...ata\todaysmarket.cpp:176) : Adding Index(GBP-LIBOR-6M) with spec Yield/GBP/GBP6M to configuration default
+NOTICE   [2020-Apr-17 10:49:54.321412] (...ata\todaysmarket.cpp:868) : Loading spec Yield/GBP/GBP6M done.
+NOTICE   [2020-Apr-17 10:49:54.321412] (...ata\todaysmarket.cpp:131) : Loading spec Yield/USD/USD1D
+NOTICE   [2020-Apr-17 10:49:54.321412] (...ata\todaysmarket.cpp:144) : Building YieldCurve for asof February 5th, 2016
+DEBUG    [2020-Apr-17 10:49:54.321412] (...tdata\yieldcurve.cpp:143) : Bootstrapping YieldCurve Yield/USD/USD1D
+DEBUG    [2020-Apr-17 10:49:54.321412] (...tdata\yieldcurve.cpp:715) : Adding Segment Deposit with conventions "USD-FED-FUNDS-CONVENTIONS"
+DEBUG    [2020-Apr-17 10:49:54.321412] (...tdata\yieldcurve.cpp:869) : Adding Segment OIS with conventions "USD-OIS-CONVENTIONS"
+DEBUG    [2020-Apr-17 10:49:54.324411] (...tdata\yieldcurve.cpp:668) : Bootstrapping with 20 instruments
+NOTICE   [2020-Apr-17 10:49:54.326412] (...tdata\yieldcurve.cpp:163) : Yield curve Yield/USD/USD1D built
+DEBUG    [2020-Apr-17 10:49:54.326412] (...ata\todaysmarket.cpp:150) : Added YieldCurve "Yield/USD/USD1D" to requiredYieldCurves map
+NOTICE   [2020-Apr-17 10:49:54.326412] (...ata\todaysmarket.cpp:176) : Adding Index(USD-FedFunds) with spec Yield/USD/USD1D to configuration default
+NOTICE   [2020-Apr-17 10:49:54.326412] (...ata\todaysmarket.cpp:868) : Loading spec Yield/USD/USD1D done.
+NOTICE   [2020-Apr-17 10:49:54.326412] (...ata\todaysmarket.cpp:131) : Loading spec Yield/USD/USD3M
+NOTICE   [2020-Apr-17 10:49:54.326412] (...ata\todaysmarket.cpp:144) : Building YieldCurve for asof February 5th, 2016
+DEBUG    [2020-Apr-17 10:49:54.327411] (...tdata\yieldcurve.cpp:143) : Bootstrapping YieldCurve Yield/USD/USD3M
+DEBUG    [2020-Apr-17 10:49:54.327411] (...tdata\yieldcurve.cpp:715) : Adding Segment Deposit with conventions "USD-LIBOR-CONVENTIONS"
+DEBUG    [2020-Apr-17 10:49:54.327411] (...tdata\yieldcurve.cpp:820) : Adding Segment FRA with conventions "USD-3M-FRA-CONVENTIONS"
+DEBUG    [2020-Apr-17 10:49:54.327411] (...tdata\yieldcurve.cpp:935) : Adding Segment Swap with conventions "USD-3M-SWAP-CONVENTIONS"
+DEBUG    [2020-Apr-17 10:49:54.331411] (...tdata\yieldcurve.cpp:668) : Bootstrapping with 23 instruments
+NOTICE   [2020-Apr-17 10:49:54.341411] (...tdata\yieldcurve.cpp:163) : Yield curve Yield/USD/USD3M built
+DEBUG    [2020-Apr-17 10:49:54.341411] (...ata\todaysmarket.cpp:150) : Added YieldCurve "Yield/USD/USD3M" to requiredYieldCurves map
+NOTICE   [2020-Apr-17 10:49:54.341411] (...ata\todaysmarket.cpp:176) : Adding Index(USD-LIBOR-3M) with spec Yield/USD/USD3M to configuration default
+NOTICE   [2020-Apr-17 10:49:54.341411] (...ata\todaysmarket.cpp:868) : Loading spec Yield/USD/USD3M done.
+NOTICE   [2020-Apr-17 10:49:54.341411] (...ata\todaysmarket.cpp:131) : Loading spec Yield/EUR/EUR-IN-USD
+NOTICE   [2020-Apr-17 10:49:54.341411] (...ata\todaysmarket.cpp:144) : Building YieldCurve for asof February 5th, 2016
+DEBUG    [2020-Apr-17 10:49:54.342412] (...tdata\yieldcurve.cpp:143) : Bootstrapping YieldCurve Yield/EUR/EUR-IN-USD
+DEBUG    [2020-Apr-17 10:49:54.342412] (...data\yieldcurve.cpp:1295) : Adding Segment FX Forward with conventions "EUR-USD-FX-CONVENTIONS"
+NOTICE   [2020-Apr-17 10:49:54.342412] (...data\yieldcurve.cpp:1353) : YieldCurve::addFXForwards(), create FX forward quotes and helpers
+NOTICE   [2020-Apr-17 10:49:54.342412] (...data\yieldcurve.cpp:1395) : YieldCurve::addFXForwards() done
+DEBUG    [2020-Apr-17 10:49:54.342412] (...data\yieldcurve.cpp:1401) : Adding Segment Cross Currency Basis Swap with conventions "EUR-USD-XCCY-BASIS-CONVENTIONS"
+DEBUG    [2020-Apr-17 10:49:54.360412] (...tdata\yieldcurve.cpp:668) : Bootstrapping with 15 instruments
+NOTICE   [2020-Apr-17 10:49:54.517412] (...tdata\yieldcurve.cpp:163) : Yield curve Yield/EUR/EUR-IN-USD built
+DEBUG    [2020-Apr-17 10:49:54.517412] (...ata\todaysmarket.cpp:150) : Added YieldCurve "Yield/EUR/EUR-IN-USD" to requiredYieldCurves map
+NOTICE   [2020-Apr-17 10:49:54.517412] (...ata\todaysmarket.cpp:165) : Adding YieldCurve(EUR) with spec Yield/EUR/EUR-IN-USD to configuration default
+NOTICE   [2020-Apr-17 10:49:54.517412] (...ata\todaysmarket.cpp:868) : Loading spec Yield/EUR/EUR-IN-USD done.
+NOTICE   [2020-Apr-17 10:49:54.517412] (...ata\todaysmarket.cpp:131) : Loading spec Yield/GBP/GBP3M
+NOTICE   [2020-Apr-17 10:49:54.517412] (...ata\todaysmarket.cpp:144) : Building YieldCurve for asof February 5th, 2016
+DEBUG    [2020-Apr-17 10:49:54.517412] (...tdata\yieldcurve.cpp:143) : Bootstrapping YieldCurve Yield/GBP/GBP3M
+DEBUG    [2020-Apr-17 10:49:54.517412] (...tdata\yieldcurve.cpp:715) : Adding Segment Deposit with conventions "GBP-DEPOSIT"
+DEBUG    [2020-Apr-17 10:49:54.518412] (...data\yieldcurve.cpp:1065) : Adding Segment Tenor Basis Swap with conventions "GBP-LIBOR-3M-6M-BASIS-CONVENTIONS"
+DEBUG    [2020-Apr-17 10:49:54.530412] (...tdata\yieldcurve.cpp:668) : Bootstrapping with 19 instruments
+NOTICE   [2020-Apr-17 10:49:54.556413] (...tdata\yieldcurve.cpp:163) : Yield curve Yield/GBP/GBP3M built
+DEBUG    [2020-Apr-17 10:49:54.556413] (...ata\todaysmarket.cpp:150) : Added YieldCurve "Yield/GBP/GBP3M" to requiredYieldCurves map
+NOTICE   [2020-Apr-17 10:49:54.556413] (...ata\todaysmarket.cpp:176) : Adding Index(GBP-LIBOR-3M) with spec Yield/GBP/GBP3M to configuration default
+NOTICE   [2020-Apr-17 10:49:54.556413] (...ata\todaysmarket.cpp:868) : Loading spec Yield/GBP/GBP3M done.
+NOTICE   [2020-Apr-17 10:49:54.556413] (...ata\todaysmarket.cpp:131) : Loading spec Yield/GBP/GBP-IN-USD
+NOTICE   [2020-Apr-17 10:49:54.556413] (...ata\todaysmarket.cpp:144) : Building YieldCurve for asof February 5th, 2016
+DEBUG    [2020-Apr-17 10:49:54.556413] (...tdata\yieldcurve.cpp:143) : Bootstrapping YieldCurve Yield/GBP/GBP-IN-USD
+DEBUG    [2020-Apr-17 10:49:54.556413] (...data\yieldcurve.cpp:1401) : Adding Segment Cross Currency Basis Swap with conventions "USD-GBP-XCCY-BASIS-CONVENTIONS"
+DEBUG    [2020-Apr-17 10:49:54.565411] (...tdata\yieldcurve.cpp:668) : Bootstrapping with 12 instruments
+NOTICE   [2020-Apr-17 10:49:54.596411] (...tdata\yieldcurve.cpp:163) : Yield curve Yield/GBP/GBP-IN-USD built
+DEBUG    [2020-Apr-17 10:49:54.596411] (...ata\todaysmarket.cpp:150) : Added YieldCurve "Yield/GBP/GBP-IN-USD" to requiredYieldCurves map
+NOTICE   [2020-Apr-17 10:49:54.596411] (...ata\todaysmarket.cpp:165) : Adding YieldCurve(GBP) with spec Yield/GBP/GBP-IN-USD to configuration default
+NOTICE   [2020-Apr-17 10:49:54.596411] (...ata\todaysmarket.cpp:852) : building swap indices...
+NOTICE   [2020-Apr-17 10:49:54.596411] (...ata\todaysmarket.cpp:868) : Loading spec Yield/GBP/GBP-IN-USD done.
+NOTICE   [2020-Apr-17 10:49:54.596411] (...ata\todaysmarket.cpp:131) : Loading spec FX/EUR/USD
+NOTICE   [2020-Apr-17 10:49:54.596411] (...ata\todaysmarket.cpp:193) : Building FXSpot for asof February 5th, 2016
+NOTICE   [2020-Apr-17 10:49:54.596411] (...ata\todaysmarket.cpp:202) : Adding FXSpot (EURUSD) with spec FX/EUR/USD to configuration default
+NOTICE   [2020-Apr-17 10:49:54.596411] (...ata\todaysmarket.cpp:868) : Loading spec FX/EUR/USD done.
+NOTICE   [2020-Apr-17 10:49:54.596411] (...ata\todaysmarket.cpp:131) : Loading spec FX/GBP/USD
+NOTICE   [2020-Apr-17 10:49:54.596411] (...ata\todaysmarket.cpp:193) : Building FXSpot for asof February 5th, 2016
+NOTICE   [2020-Apr-17 10:49:54.597412] (...ata\todaysmarket.cpp:202) : Adding FXSpot (GBPUSD) with spec FX/GBP/USD to configuration default
+NOTICE   [2020-Apr-17 10:49:54.597412] (...ata\todaysmarket.cpp:868) : Loading spec FX/GBP/USD done.
+NOTICE   [2020-Apr-17 10:49:54.597412] (...ata\todaysmarket.cpp:875) : Loading 0 CurveSpecs done.
+NOTICE   [2020-Apr-17 10:49:54.608412] (...\orea\app\oreapp.cpp:969) : Today's market built
+NOTICE   [2020-Apr-17 10:49:54.618412] (...\orea\app\oreapp.cpp:305) : Building an engine factory
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:51) : EngineData product=Swap model=DiscountedCashflows
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:65) : EngineData product=Swap engine=DiscountingSwapEngineOptimised
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:51) : EngineData product=CrossCurrencySwap model=DiscountedCashflows
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:65) : EngineData product=CrossCurrencySwap engine=DiscountingCrossCurrencySwapEngine
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:51) : EngineData product=FxForward model=DiscountedCashflows
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:65) : EngineData product=FxForward engine=DiscountingFxForwardEngine
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:51) : EngineData product=FxOption model=GarmanKohlhagen
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:65) : EngineData product=FxOption engine=AnalyticEuropeanEngine
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:51) : EngineData product=EuropeanSwaption model=BlackBachelier
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:65) : EngineData product=EuropeanSwaption engine=BlackBachelierSwaptionEngine
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:51) : EngineData product=BermudanSwaption model=LGM
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:60) : EngineData product=BermudanSwaption paramName=Calibration paramValue=Bootstrap
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:60) : EngineData product=BermudanSwaption paramName=CalibrationStrategy paramValue=CoterminalATM
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:60) : EngineData product=BermudanSwaption paramName=Reversion paramValue=0.03
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:60) : EngineData product=BermudanSwaption paramName=ReversionType paramValue=HullWhite
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:60) : EngineData product=BermudanSwaption paramName=Volatility paramValue=0.01
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:60) : EngineData product=BermudanSwaption paramName=VolatilityType paramValue=Hagan
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:60) : EngineData product=BermudanSwaption paramName=ShiftHorizon paramValue=0.5
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:60) : EngineData product=BermudanSwaption paramName=Tolerance paramValue=0.0001
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:65) : EngineData product=BermudanSwaption engine=Grid
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:74) : EngineData product=BermudanSwaption paramName=sy paramValue=3.0
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:74) : EngineData product=BermudanSwaption paramName=ny paramValue=10
+DEBUG    [2020-Apr-17 10:49:54.619412] (...tfolio\enginedata.cpp:74) : EngineData product=BermudanSwaption paramName=sx paramValue=3.0
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:74) : EngineData product=BermudanSwaption paramName=nx paramValue=10
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:51) : EngineData product=CapFloor model=IborCapModel
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:65) : EngineData product=CapFloor engine=IborCapEngine
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:51) : EngineData product=YYCapFloor model=YYCapModel
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:65) : EngineData product=YYCapFloor engine=YYCapEngine
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:51) : EngineData product=CapFlooredYYLeg model=CapFlooredYYModel
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:65) : EngineData product=CapFlooredYYLeg engine=CapFlooredYYCouponPricer
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:51) : EngineData product=CapFlooredIborLeg model=BlackOrBachelier
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:65) : EngineData product=CapFlooredIborLeg engine=BlackIborCouponPricer
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:74) : EngineData product=CapFlooredIborLeg paramName=TimingAdjustment paramValue=Black76
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:74) : EngineData product=CapFlooredIborLeg paramName=Correlation paramValue=1.0
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:51) : EngineData product=EquityForward model=DiscountedCashflows
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:65) : EngineData product=EquityForward engine=DiscountingEquityForwardEngine
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:51) : EngineData product=EquityOption model=BlackScholesMerton
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:65) : EngineData product=EquityOption engine=AnalyticEuropeanEngine
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:51) : EngineData product=Bond model=DiscountedCashflows
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:65) : EngineData product=Bond engine=DiscountingRiskyBondEngine
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:74) : EngineData product=Bond paramName=TimestepPeriod paramValue=6M
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:51) : EngineData product=CreditDefaultSwap model=DiscountedCashflows
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:65) : EngineData product=CreditDefaultSwap engine=MidPointCdsEngine
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:51) : EngineData product=CMS model=LinearTSR
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:65) : EngineData product=CMS engine=LinearTSRPricer
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:74) : EngineData product=CMS paramName=MeanReversion paramValue=0.0
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:74) : EngineData product=CMS paramName=Policy paramValue=RateBound
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:74) : EngineData product=CMS paramName=LowerRateBoundLogNormal paramValue=0.0001
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:74) : EngineData product=CMS paramName=UpperRateBoundLogNormal paramValue=2.0000
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:74) : EngineData product=CMS paramName=LowerRateBoundNormal paramValue=-2.0000
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:74) : EngineData product=CMS paramName=UpperRateBoundNormal paramValue=2.0000
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:74) : EngineData product=CMS paramName=VegaRatio paramValue=0.01
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:74) : EngineData product=CMS paramName=PriceThreshold paramValue=0.0000001
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:74) : EngineData product=CMS paramName=BsStdDev paramValue=3.0
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:51) : EngineData product=CMS_DEACTIVATED model=Hagan
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:65) : EngineData product=CMS_DEACTIVATED engine=Analytic
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:74) : EngineData product=CMS_DEACTIVATED paramName=YieldCurveModel paramValue=Standard
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:74) : EngineData product=CMS_DEACTIVATED paramName=MeanReversion paramValue=0.0
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:51) : EngineData product=CMS_DEACTIVATED model=Hagan
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:65) : EngineData product=CMS_DEACTIVATED engine=Numerical
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:74) : EngineData product=CMS_DEACTIVATED paramName=YieldCurveModel paramValue=Standard
+DEBUG    [2020-Apr-17 10:49:54.620413] (...tfolio\enginedata.cpp:74) : EngineData product=CMS_DEACTIVATED paramName=MeanReversion paramValue=0.0
+DEBUG    [2020-Apr-17 10:49:54.621412] (...tfolio\enginedata.cpp:74) : EngineData product=CMS_DEACTIVATED paramName=UpperLimit paramValue=0.0
+DEBUG    [2020-Apr-17 10:49:54.621412] (...tfolio\enginedata.cpp:74) : EngineData product=CMS_DEACTIVATED paramName=LowerLimit paramValue=1.0
+DEBUG    [2020-Apr-17 10:49:54.621412] (...tfolio\enginedata.cpp:74) : EngineData product=CMS_DEACTIVATED paramName=Precision paramValue=0.000001
+DEBUG    [2020-Apr-17 10:49:54.621412] (...tfolio\enginedata.cpp:51) : EngineData product=CMSSpread model=BrigoMercurio
+DEBUG    [2020-Apr-17 10:49:54.621412] (...tfolio\enginedata.cpp:65) : EngineData product=CMSSpread engine=Analytic
+DEBUG    [2020-Apr-17 10:49:54.621412] (...tfolio\enginedata.cpp:74) : EngineData product=CMSSpread paramName=IntegrationPoints paramValue=16
+DEBUG    [2020-Apr-17 10:49:54.621412] (...tfolio\enginedata.cpp:51) : EngineData product=CommodityForward model=DiscountedCashflows
+DEBUG    [2020-Apr-17 10:49:54.621412] (...tfolio\enginedata.cpp:65) : EngineData product=CommodityForward engine=DiscountingCommodityForwardEngine
+DEBUG    [2020-Apr-17 10:49:54.621412] (...tfolio\enginedata.cpp:51) : EngineData product=CommodityOption model=BlackScholes
+DEBUG    [2020-Apr-17 10:49:54.621412] (...tfolio\enginedata.cpp:65) : EngineData product=CommodityOption engine=AnalyticEuropeanEngine
+DEBUG    [2020-Apr-17 10:49:54.621412] (...tfolio\enginedata.cpp:51) : EngineData product=CPICapFloor model=CPICapFloorModel
+DEBUG    [2020-Apr-17 10:49:54.621412] (...tfolio\enginedata.cpp:65) : EngineData product=CPICapFloor engine=CPIBlackCapFloorEngine
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:81) : Building EngineFactory
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:DiscountedCashflows and engine:DiscountingSwapEngine
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:DiscountedCashflows and engine:DiscountingSwapEngineOptimised
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:DiscountedCashflows and engine:DiscountingCrossCurrencySwapEngine
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:BlackBachelier and engine:BlackBachelierSwaptionEngine
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:LGM and engine:Grid
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:DiscountedCashflows and engine:DiscountingFxForwardEngine
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:GarmanKohlhagen and engine:AnalyticEuropeanEngine
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:IborCapModel and engine:IborCapEngine
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:BlackOrBachelier and engine:BlackIborCouponPricer
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:CapFlooredYYModel and engine:CapFlooredYYCouponPricer
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:BrigoMercurio and engine:Analytic
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:YYCapModel and engine:YYCapEngine
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:DiscountedCashflows and engine:DiscountingEquityForwardEngine
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:BlackScholesMerton and engine:AnalyticEuropeanEngine
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:DiscountedCashflows and engine:DiscountingRiskyBondEngine
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:Hagan and engine:Analytic
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:Hagan and engine:Numerical
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:LinearTSR and engine:LinearTSRPricer
+NOTICE   [2020-Apr-17 10:49:54.621412] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:DiscountedCashflows and engine:MidPointCdsEngine
+NOTICE   [2020-Apr-17 10:49:54.622413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:DiscountedCashflows and engine:DiscountingCommodityForwardEngine
+NOTICE   [2020-Apr-17 10:49:54.622413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:BlackScholes and engine:AnalyticEuropeanEngine
+NOTICE   [2020-Apr-17 10:49:54.622413] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type Fixed
+NOTICE   [2020-Apr-17 10:49:54.623413] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type ZeroCouponFixed
+NOTICE   [2020-Apr-17 10:49:54.623413] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type Floating
+NOTICE   [2020-Apr-17 10:49:54.623413] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type Cashflow
+NOTICE   [2020-Apr-17 10:49:54.623413] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type CPI
+NOTICE   [2020-Apr-17 10:49:54.623413] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type YY
+NOTICE   [2020-Apr-17 10:49:54.623413] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type CMS
+NOTICE   [2020-Apr-17 10:49:54.623413] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type CMSSpread
+NOTICE   [2020-Apr-17 10:49:54.623413] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type DigitalCMSSpread
+NOTICE   [2020-Apr-17 10:49:54.623413] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type Equity
+NOTICE   [2020-Apr-17 10:49:54.623413] (...\orea\app\oreapp.cpp:318) : Engine factory built
+NOTICE   [2020-Apr-17 10:49:54.629411] (...\orea\app\oreapp.cpp:331) : Building portfolio
+NOTICE   [2020-Apr-17 10:49:54.629411] (...rtfolio\portfolio.cpp:45) : Parsing XML Input/portfolio.xml
+NOTICE   [2020-Apr-17 10:49:54.645413] (...rtfolio\portfolio.cpp:47) : Loaded XML file
+DEBUG    [2020-Apr-17 10:49:54.645413] (...rtfolio\portfolio.cpp:70) : Parsing trade id:FXFWD_1Y
+DEBUG    [2020-Apr-17 10:49:54.645413] (...rtfolio\portfolio.cpp:81) : Added Trade FXFWD_1Y (FXFWD_1Y) type:FxForward
+DEBUG    [2020-Apr-17 10:49:54.645413] (...rtfolio\portfolio.cpp:70) : Parsing trade id:FXFWD_5Y
+DEBUG    [2020-Apr-17 10:49:54.645413] (...rtfolio\portfolio.cpp:81) : Added Trade FXFWD_5Y (FXFWD_5Y) type:FxForward
+NOTICE   [2020-Apr-17 10:49:54.645413] (...rtfolio\portfolio.cpp:89) : Finished Parsing XML doc
+NOTICE   [2020-Apr-17 10:49:54.645413] (...tfolio\portfolio.cpp:126) : Building Portfolio of size 2
+DEBUG    [2020-Apr-17 10:49:54.645413] (...rtfolio\fxforward.cpp:43) : Build FxForward with maturity date 2017-02-06
+DEBUG    [2020-Apr-17 10:49:54.645413] (...rtfolio\fxforward.cpp:71) : FxForward leg 0: February 6th, 2017 11000000.000000
+DEBUG    [2020-Apr-17 10:49:54.645413] (...rtfolio\fxforward.cpp:72) : FxForward leg 1: February 6th, 2017 9009771.170202
+DEBUG    [2020-Apr-17 10:49:54.645413] (...rtfolio\fxforward.cpp:43) : Build FxForward with maturity date 2021-02-05
+DEBUG    [2020-Apr-17 10:49:54.645413] (...rtfolio\fxforward.cpp:71) : FxForward leg 0: February 5th, 2021 11000000.000000
+DEBUG    [2020-Apr-17 10:49:54.645413] (...rtfolio\fxforward.cpp:72) : FxForward leg 1: February 5th, 2021 9512182.298759
+NOTICE   [2020-Apr-17 10:49:54.646412] (...tfolio\portfolio.cpp:137) : Built Portfolio. Size now 2
+NOTICE   [2020-Apr-17 10:49:54.646412] (...\orea\app\oreapp.cpp:343) : Portfolio built
+NOTICE   [2020-Apr-17 10:49:54.647412] (...\orea\app\oreapp.cpp:407) : Writing initial reports
+DEBUG    [2020-Apr-17 10:49:54.650414] (...ulation\dategrid.cpp:167) : DateGrid constructed, size = 240
+DEBUG    [2020-Apr-17 10:49:54.650414] (...ulation\dategrid.cpp:169) : [ 0] Tenor:1M, Date:2016-03-07
+DEBUG    [2020-Apr-17 10:49:54.651413] (...ulation\dategrid.cpp:169) : [ 1] Tenor:2M, Date:2016-04-05
+DEBUG    [2020-Apr-17 10:49:54.651413] (...ulation\dategrid.cpp:169) : [ 2] Tenor:3M, Date:2016-05-05
+DEBUG    [2020-Apr-17 10:49:54.651413] (...ulation\dategrid.cpp:169) : [ 3] Tenor:4M, Date:2016-06-06
+DEBUG    [2020-Apr-17 10:49:54.651413] (...ulation\dategrid.cpp:169) : [ 4] Tenor:5M, Date:2016-07-05
+DEBUG    [2020-Apr-17 10:49:54.651413] (...ulation\dategrid.cpp:169) : [ 5] Tenor:6M, Date:2016-08-05
+DEBUG    [2020-Apr-17 10:49:54.651413] (...ulation\dategrid.cpp:169) : [ 6] Tenor:7M, Date:2016-09-05
+DEBUG    [2020-Apr-17 10:49:54.651413] (...ulation\dategrid.cpp:169) : [ 7] Tenor:8M, Date:2016-10-05
+DEBUG    [2020-Apr-17 10:49:54.651413] (...ulation\dategrid.cpp:169) : [ 8] Tenor:9M, Date:2016-11-07
+DEBUG    [2020-Apr-17 10:49:54.651413] (...ulation\dategrid.cpp:169) : [ 9] Tenor:10M, Date:2016-12-05
+DEBUG    [2020-Apr-17 10:49:54.652412] (...ulation\dategrid.cpp:169) : [10] Tenor:11M, Date:2017-01-05
+DEBUG    [2020-Apr-17 10:49:54.652412] (...ulation\dategrid.cpp:169) : [11] Tenor:1Y, Date:2017-02-06
+DEBUG    [2020-Apr-17 10:49:54.652412] (...ulation\dategrid.cpp:169) : [12] Tenor:1Y1M, Date:2017-03-06
+DEBUG    [2020-Apr-17 10:49:54.652412] (...ulation\dategrid.cpp:169) : [13] Tenor:1Y2M, Date:2017-04-05
+DEBUG    [2020-Apr-17 10:49:54.652412] (...ulation\dategrid.cpp:169) : [14] Tenor:1Y3M, Date:2017-05-05
+DEBUG    [2020-Apr-17 10:49:54.652412] (...ulation\dategrid.cpp:169) : [15] Tenor:1Y4M, Date:2017-06-05
+DEBUG    [2020-Apr-17 10:49:54.652412] (...ulation\dategrid.cpp:169) : [16] Tenor:1Y5M, Date:2017-07-05
+DEBUG    [2020-Apr-17 10:49:54.652412] (...ulation\dategrid.cpp:169) : [17] Tenor:1Y6M, Date:2017-08-07
+DEBUG    [2020-Apr-17 10:49:54.652412] (...ulation\dategrid.cpp:169) : [18] Tenor:1Y7M, Date:2017-09-05
+DEBUG    [2020-Apr-17 10:49:54.652412] (...ulation\dategrid.cpp:169) : [19] Tenor:1Y8M, Date:2017-10-05
+DEBUG    [2020-Apr-17 10:49:54.653412] (...ulation\dategrid.cpp:169) : [20] Tenor:1Y9M, Date:2017-11-06
+DEBUG    [2020-Apr-17 10:49:54.653412] (...ulation\dategrid.cpp:169) : [21] Tenor:1Y10M, Date:2017-12-05
+DEBUG    [2020-Apr-17 10:49:54.653412] (...ulation\dategrid.cpp:169) : [22] Tenor:1Y11M, Date:2018-01-05
+DEBUG    [2020-Apr-17 10:49:54.653412] (...ulation\dategrid.cpp:169) : [23] Tenor:2Y, Date:2018-02-05
+DEBUG    [2020-Apr-17 10:49:54.653412] (...ulation\dategrid.cpp:169) : [24] Tenor:2Y1M, Date:2018-03-05
+DEBUG    [2020-Apr-17 10:49:54.653412] (...ulation\dategrid.cpp:169) : [25] Tenor:2Y2M, Date:2018-04-05
+DEBUG    [2020-Apr-17 10:49:54.653412] (...ulation\dategrid.cpp:169) : [26] Tenor:2Y3M, Date:2018-05-07
+DEBUG    [2020-Apr-17 10:49:54.653412] (...ulation\dategrid.cpp:169) : [27] Tenor:2Y4M, Date:2018-06-05
+DEBUG    [2020-Apr-17 10:49:54.653412] (...ulation\dategrid.cpp:169) : [28] Tenor:2Y5M, Date:2018-07-05
+DEBUG    [2020-Apr-17 10:49:54.653412] (...ulation\dategrid.cpp:169) : [29] Tenor:2Y6M, Date:2018-08-06
+DEBUG    [2020-Apr-17 10:49:54.655413] (...ulation\dategrid.cpp:169) : [30] Tenor:2Y7M, Date:2018-09-05
+DEBUG    [2020-Apr-17 10:49:54.655413] (...ulation\dategrid.cpp:169) : [31] Tenor:2Y8M, Date:2018-10-05
+DEBUG    [2020-Apr-17 10:49:54.656412] (...ulation\dategrid.cpp:169) : [32] Tenor:2Y9M, Date:2018-11-05
+DEBUG    [2020-Apr-17 10:49:54.656412] (...ulation\dategrid.cpp:169) : [33] Tenor:2Y10M, Date:2018-12-05
+DEBUG    [2020-Apr-17 10:49:54.656412] (...ulation\dategrid.cpp:169) : [34] Tenor:2Y11M, Date:2019-01-07
+DEBUG    [2020-Apr-17 10:49:54.656412] (...ulation\dategrid.cpp:169) : [35] Tenor:3Y, Date:2019-02-05
+DEBUG    [2020-Apr-17 10:49:54.656412] (...ulation\dategrid.cpp:169) : [36] Tenor:3Y1M, Date:2019-03-05
+DEBUG    [2020-Apr-17 10:49:54.656412] (...ulation\dategrid.cpp:169) : [37] Tenor:3Y2M, Date:2019-04-05
+DEBUG    [2020-Apr-17 10:49:54.656412] (...ulation\dategrid.cpp:169) : [38] Tenor:3Y3M, Date:2019-05-06
+DEBUG    [2020-Apr-17 10:49:54.656412] (...ulation\dategrid.cpp:169) : [39] Tenor:3Y4M, Date:2019-06-05
+DEBUG    [2020-Apr-17 10:49:54.656412] (...ulation\dategrid.cpp:169) : [40] Tenor:3Y5M, Date:2019-07-05
+DEBUG    [2020-Apr-17 10:49:54.656412] (...ulation\dategrid.cpp:169) : [41] Tenor:3Y6M, Date:2019-08-05
+DEBUG    [2020-Apr-17 10:49:54.657412] (...ulation\dategrid.cpp:169) : [42] Tenor:3Y7M, Date:2019-09-05
+DEBUG    [2020-Apr-17 10:49:54.657412] (...ulation\dategrid.cpp:169) : [43] Tenor:3Y8M, Date:2019-10-07
+DEBUG    [2020-Apr-17 10:49:54.657412] (...ulation\dategrid.cpp:169) : [44] Tenor:3Y9M, Date:2019-11-05
+DEBUG    [2020-Apr-17 10:49:54.657412] (...ulation\dategrid.cpp:169) : [45] Tenor:3Y10M, Date:2019-12-05
+DEBUG    [2020-Apr-17 10:49:54.657412] (...ulation\dategrid.cpp:169) : [46] Tenor:3Y11M, Date:2020-01-06
+DEBUG    [2020-Apr-17 10:49:54.657412] (...ulation\dategrid.cpp:169) : [47] Tenor:4Y, Date:2020-02-05
+DEBUG    [2020-Apr-17 10:49:54.657412] (...ulation\dategrid.cpp:169) : [48] Tenor:4Y1M, Date:2020-03-05
+DEBUG    [2020-Apr-17 10:49:54.657412] (...ulation\dategrid.cpp:169) : [49] Tenor:4Y2M, Date:2020-04-06
+DEBUG    [2020-Apr-17 10:49:54.657412] (...ulation\dategrid.cpp:169) : [50] Tenor:4Y3M, Date:2020-05-05
+DEBUG    [2020-Apr-17 10:49:54.657412] (...ulation\dategrid.cpp:169) : [51] Tenor:4Y4M, Date:2020-06-05
+DEBUG    [2020-Apr-17 10:49:54.658412] (...ulation\dategrid.cpp:169) : [52] Tenor:4Y5M, Date:2020-07-06
+DEBUG    [2020-Apr-17 10:49:54.658412] (...ulation\dategrid.cpp:169) : [53] Tenor:4Y6M, Date:2020-08-05
+DEBUG    [2020-Apr-17 10:49:54.658412] (...ulation\dategrid.cpp:169) : [54] Tenor:4Y7M, Date:2020-09-07
+DEBUG    [2020-Apr-17 10:49:54.658412] (...ulation\dategrid.cpp:169) : [55] Tenor:4Y8M, Date:2020-10-05
+DEBUG    [2020-Apr-17 10:49:54.658412] (...ulation\dategrid.cpp:169) : [56] Tenor:4Y9M, Date:2020-11-05
+DEBUG    [2020-Apr-17 10:49:54.658412] (...ulation\dategrid.cpp:169) : [57] Tenor:4Y10M, Date:2020-12-07
+DEBUG    [2020-Apr-17 10:49:54.658412] (...ulation\dategrid.cpp:169) : [58] Tenor:4Y11M, Date:2021-01-05
+DEBUG    [2020-Apr-17 10:49:54.658412] (...ulation\dategrid.cpp:169) : [59] Tenor:5Y, Date:2021-02-05
+DEBUG    [2020-Apr-17 10:49:54.658412] (...ulation\dategrid.cpp:169) : [60] Tenor:5Y1M, Date:2021-03-05
+DEBUG    [2020-Apr-17 10:49:54.658412] (...ulation\dategrid.cpp:169) : [61] Tenor:5Y2M, Date:2021-04-06
+DEBUG    [2020-Apr-17 10:49:54.664412] (...ulation\dategrid.cpp:169) : [62] Tenor:5Y3M, Date:2021-05-05
+DEBUG    [2020-Apr-17 10:49:54.665413] (...ulation\dategrid.cpp:169) : [63] Tenor:5Y4M, Date:2021-06-07
+DEBUG    [2020-Apr-17 10:49:54.665413] (...ulation\dategrid.cpp:169) : [64] Tenor:5Y5M, Date:2021-07-05
+DEBUG    [2020-Apr-17 10:49:54.665413] (...ulation\dategrid.cpp:169) : [65] Tenor:5Y6M, Date:2021-08-05
+DEBUG    [2020-Apr-17 10:49:54.665413] (...ulation\dategrid.cpp:169) : [66] Tenor:5Y7M, Date:2021-09-06
+DEBUG    [2020-Apr-17 10:49:54.665413] (...ulation\dategrid.cpp:169) : [67] Tenor:5Y8M, Date:2021-10-05
+DEBUG    [2020-Apr-17 10:49:54.665413] (...ulation\dategrid.cpp:169) : [68] Tenor:5Y9M, Date:2021-11-05
+DEBUG    [2020-Apr-17 10:49:54.665413] (...ulation\dategrid.cpp:169) : [69] Tenor:5Y10M, Date:2021-12-06
+DEBUG    [2020-Apr-17 10:49:54.665413] (...ulation\dategrid.cpp:169) : [70] Tenor:5Y11M, Date:2022-01-05
+DEBUG    [2020-Apr-17 10:49:54.665413] (...ulation\dategrid.cpp:169) : [71] Tenor:6Y, Date:2022-02-07
+DEBUG    [2020-Apr-17 10:49:54.665413] (...ulation\dategrid.cpp:169) : [72] Tenor:6Y1M, Date:2022-03-07
+DEBUG    [2020-Apr-17 10:49:54.666412] (...ulation\dategrid.cpp:169) : [73] Tenor:6Y2M, Date:2022-04-05
+DEBUG    [2020-Apr-17 10:49:54.666412] (...ulation\dategrid.cpp:169) : [74] Tenor:6Y3M, Date:2022-05-05
+DEBUG    [2020-Apr-17 10:49:54.671414] (...ulation\dategrid.cpp:169) : [75] Tenor:6Y4M, Date:2022-06-06
+DEBUG    [2020-Apr-17 10:49:54.671414] (...ulation\dategrid.cpp:169) : [76] Tenor:6Y5M, Date:2022-07-05
+DEBUG    [2020-Apr-17 10:49:54.672413] (...ulation\dategrid.cpp:169) : [77] Tenor:6Y6M, Date:2022-08-05
+DEBUG    [2020-Apr-17 10:49:54.672413] (...ulation\dategrid.cpp:169) : [78] Tenor:6Y7M, Date:2022-09-05
+DEBUG    [2020-Apr-17 10:49:54.672413] (...ulation\dategrid.cpp:169) : [79] Tenor:6Y8M, Date:2022-10-05
+DEBUG    [2020-Apr-17 10:49:54.672413] (...ulation\dategrid.cpp:169) : [80] Tenor:6Y9M, Date:2022-11-07
+DEBUG    [2020-Apr-17 10:49:54.673413] (...ulation\dategrid.cpp:169) : [81] Tenor:6Y10M, Date:2022-12-05
+DEBUG    [2020-Apr-17 10:49:54.674414] (...ulation\dategrid.cpp:169) : [82] Tenor:6Y11M, Date:2023-01-05
+DEBUG    [2020-Apr-17 10:49:54.674414] (...ulation\dategrid.cpp:169) : [83] Tenor:7Y, Date:2023-02-06
+DEBUG    [2020-Apr-17 10:49:54.674414] (...ulation\dategrid.cpp:169) : [84] Tenor:7Y1M, Date:2023-03-06
+DEBUG    [2020-Apr-17 10:49:54.674414] (...ulation\dategrid.cpp:169) : [85] Tenor:7Y2M, Date:2023-04-05
+DEBUG    [2020-Apr-17 10:49:54.674414] (...ulation\dategrid.cpp:169) : [86] Tenor:7Y3M, Date:2023-05-05
+DEBUG    [2020-Apr-17 10:49:54.675413] (...ulation\dategrid.cpp:169) : [87] Tenor:7Y4M, Date:2023-06-05
+DEBUG    [2020-Apr-17 10:49:54.675413] (...ulation\dategrid.cpp:169) : [88] Tenor:7Y5M, Date:2023-07-05
+DEBUG    [2020-Apr-17 10:49:54.675413] (...ulation\dategrid.cpp:169) : [89] Tenor:7Y6M, Date:2023-08-07
+DEBUG    [2020-Apr-17 10:49:54.675413] (...ulation\dategrid.cpp:169) : [90] Tenor:7Y7M, Date:2023-09-05
+DEBUG    [2020-Apr-17 10:49:54.675413] (...ulation\dategrid.cpp:169) : [91] Tenor:7Y8M, Date:2023-10-05
+DEBUG    [2020-Apr-17 10:49:54.675413] (...ulation\dategrid.cpp:169) : [92] Tenor:7Y9M, Date:2023-11-06
+DEBUG    [2020-Apr-17 10:49:54.675413] (...ulation\dategrid.cpp:169) : [93] Tenor:7Y10M, Date:2023-12-05
+DEBUG    [2020-Apr-17 10:49:54.675413] (...ulation\dategrid.cpp:169) : [94] Tenor:7Y11M, Date:2024-01-05
+DEBUG    [2020-Apr-17 10:49:54.675413] (...ulation\dategrid.cpp:169) : [95] Tenor:8Y, Date:2024-02-05
+DEBUG    [2020-Apr-17 10:49:54.675413] (...ulation\dategrid.cpp:169) : [96] Tenor:8Y1M, Date:2024-03-05
+DEBUG    [2020-Apr-17 10:49:54.676412] (...ulation\dategrid.cpp:169) : [97] Tenor:8Y2M, Date:2024-04-05
+DEBUG    [2020-Apr-17 10:49:54.676412] (...ulation\dategrid.cpp:169) : [98] Tenor:8Y3M, Date:2024-05-06
+DEBUG    [2020-Apr-17 10:49:54.676412] (...ulation\dategrid.cpp:169) : [99] Tenor:8Y4M, Date:2024-06-05
+DEBUG    [2020-Apr-17 10:49:54.676412] (...ulation\dategrid.cpp:169) : [100] Tenor:8Y5M, Date:2024-07-05
+DEBUG    [2020-Apr-17 10:49:54.676412] (...ulation\dategrid.cpp:169) : [101] Tenor:8Y6M, Date:2024-08-05
+DEBUG    [2020-Apr-17 10:49:54.676412] (...ulation\dategrid.cpp:169) : [102] Tenor:8Y7M, Date:2024-09-05
+DEBUG    [2020-Apr-17 10:49:54.676412] (...ulation\dategrid.cpp:169) : [103] Tenor:8Y8M, Date:2024-10-07
+DEBUG    [2020-Apr-17 10:49:54.676412] (...ulation\dategrid.cpp:169) : [104] Tenor:8Y9M, Date:2024-11-05
+DEBUG    [2020-Apr-17 10:49:54.676412] (...ulation\dategrid.cpp:169) : [105] Tenor:8Y10M, Date:2024-12-05
+DEBUG    [2020-Apr-17 10:49:54.677412] (...ulation\dategrid.cpp:169) : [106] Tenor:8Y11M, Date:2025-01-06
+DEBUG    [2020-Apr-17 10:49:54.677412] (...ulation\dategrid.cpp:169) : [107] Tenor:9Y, Date:2025-02-05
+DEBUG    [2020-Apr-17 10:49:54.677412] (...ulation\dategrid.cpp:169) : [108] Tenor:9Y1M, Date:2025-03-05
+DEBUG    [2020-Apr-17 10:49:54.677412] (...ulation\dategrid.cpp:169) : [109] Tenor:9Y2M, Date:2025-04-07
+DEBUG    [2020-Apr-17 10:49:54.677412] (...ulation\dategrid.cpp:169) : [110] Tenor:9Y3M, Date:2025-05-05
+DEBUG    [2020-Apr-17 10:49:54.677412] (...ulation\dategrid.cpp:169) : [111] Tenor:9Y4M, Date:2025-06-05
+DEBUG    [2020-Apr-17 10:49:54.677412] (...ulation\dategrid.cpp:169) : [112] Tenor:9Y5M, Date:2025-07-07
+DEBUG    [2020-Apr-17 10:49:54.677412] (...ulation\dategrid.cpp:169) : [113] Tenor:9Y6M, Date:2025-08-05
+DEBUG    [2020-Apr-17 10:49:54.677412] (...ulation\dategrid.cpp:169) : [114] Tenor:9Y7M, Date:2025-09-05
+DEBUG    [2020-Apr-17 10:49:54.677412] (...ulation\dategrid.cpp:169) : [115] Tenor:9Y8M, Date:2025-10-06
+DEBUG    [2020-Apr-17 10:49:54.677412] (...ulation\dategrid.cpp:169) : [116] Tenor:9Y9M, Date:2025-11-05
+DEBUG    [2020-Apr-17 10:49:54.678412] (...ulation\dategrid.cpp:169) : [117] Tenor:9Y10M, Date:2025-12-05
+DEBUG    [2020-Apr-17 10:49:54.678412] (...ulation\dategrid.cpp:169) : [118] Tenor:9Y11M, Date:2026-01-05
+DEBUG    [2020-Apr-17 10:49:54.678412] (...ulation\dategrid.cpp:169) : [119] Tenor:10Y, Date:2026-02-05
+DEBUG    [2020-Apr-17 10:49:54.678412] (...ulation\dategrid.cpp:169) : [120] Tenor:10Y1M, Date:2026-03-05
+DEBUG    [2020-Apr-17 10:49:54.678412] (...ulation\dategrid.cpp:169) : [121] Tenor:10Y2M, Date:2026-04-07
+DEBUG    [2020-Apr-17 10:49:54.678412] (...ulation\dategrid.cpp:169) : [122] Tenor:10Y3M, Date:2026-05-05
+DEBUG    [2020-Apr-17 10:49:54.678412] (...ulation\dategrid.cpp:169) : [123] Tenor:10Y4M, Date:2026-06-05
+DEBUG    [2020-Apr-17 10:49:54.678412] (...ulation\dategrid.cpp:169) : [124] Tenor:10Y5M, Date:2026-07-06
+DEBUG    [2020-Apr-17 10:49:54.678412] (...ulation\dategrid.cpp:169) : [125] Tenor:10Y6M, Date:2026-08-05
+DEBUG    [2020-Apr-17 10:49:54.678412] (...ulation\dategrid.cpp:169) : [126] Tenor:10Y7M, Date:2026-09-07
+DEBUG    [2020-Apr-17 10:49:54.678412] (...ulation\dategrid.cpp:169) : [127] Tenor:10Y8M, Date:2026-10-05
+DEBUG    [2020-Apr-17 10:49:54.679412] (...ulation\dategrid.cpp:169) : [128] Tenor:10Y9M, Date:2026-11-05
+DEBUG    [2020-Apr-17 10:49:54.679412] (...ulation\dategrid.cpp:169) : [129] Tenor:10Y10M, Date:2026-12-07
+DEBUG    [2020-Apr-17 10:49:54.679412] (...ulation\dategrid.cpp:169) : [130] Tenor:10Y11M, Date:2027-01-05
+DEBUG    [2020-Apr-17 10:49:54.679412] (...ulation\dategrid.cpp:169) : [131] Tenor:11Y, Date:2027-02-05
+DEBUG    [2020-Apr-17 10:49:54.679412] (...ulation\dategrid.cpp:169) : [132] Tenor:11Y1M, Date:2027-03-05
+DEBUG    [2020-Apr-17 10:49:54.679412] (...ulation\dategrid.cpp:169) : [133] Tenor:11Y2M, Date:2027-04-05
+DEBUG    [2020-Apr-17 10:49:54.679412] (...ulation\dategrid.cpp:169) : [134] Tenor:11Y3M, Date:2027-05-05
+DEBUG    [2020-Apr-17 10:49:54.679412] (...ulation\dategrid.cpp:169) : [135] Tenor:11Y4M, Date:2027-06-07
+DEBUG    [2020-Apr-17 10:49:54.679412] (...ulation\dategrid.cpp:169) : [136] Tenor:11Y5M, Date:2027-07-05
+DEBUG    [2020-Apr-17 10:49:54.680411] (...ulation\dategrid.cpp:169) : [137] Tenor:11Y6M, Date:2027-08-05
+DEBUG    [2020-Apr-17 10:49:54.680411] (...ulation\dategrid.cpp:169) : [138] Tenor:11Y7M, Date:2027-09-06
+DEBUG    [2020-Apr-17 10:49:54.680411] (...ulation\dategrid.cpp:169) : [139] Tenor:11Y8M, Date:2027-10-05
+DEBUG    [2020-Apr-17 10:49:54.680411] (...ulation\dategrid.cpp:169) : [140] Tenor:11Y9M, Date:2027-11-05
+DEBUG    [2020-Apr-17 10:49:54.680411] (...ulation\dategrid.cpp:169) : [141] Tenor:11Y10M, Date:2027-12-06
+DEBUG    [2020-Apr-17 10:49:54.680411] (...ulation\dategrid.cpp:169) : [142] Tenor:11Y11M, Date:2028-01-05
+DEBUG    [2020-Apr-17 10:49:54.680411] (...ulation\dategrid.cpp:169) : [143] Tenor:12Y, Date:2028-02-07
+DEBUG    [2020-Apr-17 10:49:54.680411] (...ulation\dategrid.cpp:169) : [144] Tenor:12Y1M, Date:2028-03-06
+DEBUG    [2020-Apr-17 10:49:54.680411] (...ulation\dategrid.cpp:169) : [145] Tenor:12Y2M, Date:2028-04-05
+DEBUG    [2020-Apr-17 10:49:54.680411] (...ulation\dategrid.cpp:169) : [146] Tenor:12Y3M, Date:2028-05-05
+DEBUG    [2020-Apr-17 10:49:54.680411] (...ulation\dategrid.cpp:169) : [147] Tenor:12Y4M, Date:2028-06-05
+DEBUG    [2020-Apr-17 10:49:54.681412] (...ulation\dategrid.cpp:169) : [148] Tenor:12Y5M, Date:2028-07-05
+DEBUG    [2020-Apr-17 10:49:54.681412] (...ulation\dategrid.cpp:169) : [149] Tenor:12Y6M, Date:2028-08-07
+DEBUG    [2020-Apr-17 10:49:54.681412] (...ulation\dategrid.cpp:169) : [150] Tenor:12Y7M, Date:2028-09-05
+DEBUG    [2020-Apr-17 10:49:54.681412] (...ulation\dategrid.cpp:169) : [151] Tenor:12Y8M, Date:2028-10-05
+DEBUG    [2020-Apr-17 10:49:54.681412] (...ulation\dategrid.cpp:169) : [152] Tenor:12Y9M, Date:2028-11-06
+DEBUG    [2020-Apr-17 10:49:54.681412] (...ulation\dategrid.cpp:169) : [153] Tenor:12Y10M, Date:2028-12-05
+DEBUG    [2020-Apr-17 10:49:54.681412] (...ulation\dategrid.cpp:169) : [154] Tenor:12Y11M, Date:2029-01-05
+DEBUG    [2020-Apr-17 10:49:54.681412] (...ulation\dategrid.cpp:169) : [155] Tenor:13Y, Date:2029-02-05
+DEBUG    [2020-Apr-17 10:49:54.681412] (...ulation\dategrid.cpp:169) : [156] Tenor:13Y1M, Date:2029-03-05
+DEBUG    [2020-Apr-17 10:49:54.681412] (...ulation\dategrid.cpp:169) : [157] Tenor:13Y2M, Date:2029-04-05
+DEBUG    [2020-Apr-17 10:49:54.682411] (...ulation\dategrid.cpp:169) : [158] Tenor:13Y3M, Date:2029-05-07
+DEBUG    [2020-Apr-17 10:49:54.682411] (...ulation\dategrid.cpp:169) : [159] Tenor:13Y4M, Date:2029-06-05
+DEBUG    [2020-Apr-17 10:49:54.682411] (...ulation\dategrid.cpp:169) : [160] Tenor:13Y5M, Date:2029-07-05
+DEBUG    [2020-Apr-17 10:49:54.682411] (...ulation\dategrid.cpp:169) : [161] Tenor:13Y6M, Date:2029-08-06
+DEBUG    [2020-Apr-17 10:49:54.682411] (...ulation\dategrid.cpp:169) : [162] Tenor:13Y7M, Date:2029-09-05
+DEBUG    [2020-Apr-17 10:49:54.682411] (...ulation\dategrid.cpp:169) : [163] Tenor:13Y8M, Date:2029-10-05
+DEBUG    [2020-Apr-17 10:49:54.682411] (...ulation\dategrid.cpp:169) : [164] Tenor:13Y9M, Date:2029-11-05
+DEBUG    [2020-Apr-17 10:49:54.682411] (...ulation\dategrid.cpp:169) : [165] Tenor:13Y10M, Date:2029-12-05
+DEBUG    [2020-Apr-17 10:49:54.682411] (...ulation\dategrid.cpp:169) : [166] Tenor:13Y11M, Date:2030-01-07
+DEBUG    [2020-Apr-17 10:49:54.682411] (...ulation\dategrid.cpp:169) : [167] Tenor:14Y, Date:2030-02-05
+DEBUG    [2020-Apr-17 10:49:54.682411] (...ulation\dategrid.cpp:169) : [168] Tenor:14Y1M, Date:2030-03-05
+DEBUG    [2020-Apr-17 10:49:54.684413] (...ulation\dategrid.cpp:169) : [169] Tenor:14Y2M, Date:2030-04-05
+DEBUG    [2020-Apr-17 10:49:54.684413] (...ulation\dategrid.cpp:169) : [170] Tenor:14Y3M, Date:2030-05-06
+DEBUG    [2020-Apr-17 10:49:54.684413] (...ulation\dategrid.cpp:169) : [171] Tenor:14Y4M, Date:2030-06-05
+DEBUG    [2020-Apr-17 10:49:54.684413] (...ulation\dategrid.cpp:169) : [172] Tenor:14Y5M, Date:2030-07-05
+DEBUG    [2020-Apr-17 10:49:54.684413] (...ulation\dategrid.cpp:169) : [173] Tenor:14Y6M, Date:2030-08-05
+DEBUG    [2020-Apr-17 10:49:54.685413] (...ulation\dategrid.cpp:169) : [174] Tenor:14Y7M, Date:2030-09-05
+DEBUG    [2020-Apr-17 10:49:54.685413] (...ulation\dategrid.cpp:169) : [175] Tenor:14Y8M, Date:2030-10-07
+DEBUG    [2020-Apr-17 10:49:54.685413] (...ulation\dategrid.cpp:169) : [176] Tenor:14Y9M, Date:2030-11-05
+DEBUG    [2020-Apr-17 10:49:54.685413] (...ulation\dategrid.cpp:169) : [177] Tenor:14Y10M, Date:2030-12-05
+DEBUG    [2020-Apr-17 10:49:54.685413] (...ulation\dategrid.cpp:169) : [178] Tenor:14Y11M, Date:2031-01-06
+DEBUG    [2020-Apr-17 10:49:54.685413] (...ulation\dategrid.cpp:169) : [179] Tenor:15Y, Date:2031-02-05
+DEBUG    [2020-Apr-17 10:49:54.685413] (...ulation\dategrid.cpp:169) : [180] Tenor:15Y1M, Date:2031-03-05
+DEBUG    [2020-Apr-17 10:49:54.685413] (...ulation\dategrid.cpp:169) : [181] Tenor:15Y2M, Date:2031-04-07
+DEBUG    [2020-Apr-17 10:49:54.685413] (...ulation\dategrid.cpp:169) : [182] Tenor:15Y3M, Date:2031-05-05
+DEBUG    [2020-Apr-17 10:49:54.685413] (...ulation\dategrid.cpp:169) : [183] Tenor:15Y4M, Date:2031-06-05
+DEBUG    [2020-Apr-17 10:49:54.686412] (...ulation\dategrid.cpp:169) : [184] Tenor:15Y5M, Date:2031-07-07
+DEBUG    [2020-Apr-17 10:49:54.686412] (...ulation\dategrid.cpp:169) : [185] Tenor:15Y6M, Date:2031-08-05
+DEBUG    [2020-Apr-17 10:49:54.686412] (...ulation\dategrid.cpp:169) : [186] Tenor:15Y7M, Date:2031-09-05
+DEBUG    [2020-Apr-17 10:49:54.686412] (...ulation\dategrid.cpp:169) : [187] Tenor:15Y8M, Date:2031-10-06
+DEBUG    [2020-Apr-17 10:49:54.686412] (...ulation\dategrid.cpp:169) : [188] Tenor:15Y9M, Date:2031-11-05
+DEBUG    [2020-Apr-17 10:49:54.686412] (...ulation\dategrid.cpp:169) : [189] Tenor:15Y10M, Date:2031-12-05
+DEBUG    [2020-Apr-17 10:49:54.686412] (...ulation\dategrid.cpp:169) : [190] Tenor:15Y11M, Date:2032-01-05
+DEBUG    [2020-Apr-17 10:49:54.686412] (...ulation\dategrid.cpp:169) : [191] Tenor:16Y, Date:2032-02-05
+DEBUG    [2020-Apr-17 10:49:54.686412] (...ulation\dategrid.cpp:169) : [192] Tenor:16Y1M, Date:2032-03-05
+DEBUG    [2020-Apr-17 10:49:54.686412] (...ulation\dategrid.cpp:169) : [193] Tenor:16Y2M, Date:2032-04-05
+DEBUG    [2020-Apr-17 10:49:54.687411] (...ulation\dategrid.cpp:169) : [194] Tenor:16Y3M, Date:2032-05-05
+DEBUG    [2020-Apr-17 10:49:54.687411] (...ulation\dategrid.cpp:169) : [195] Tenor:16Y4M, Date:2032-06-07
+DEBUG    [2020-Apr-17 10:49:54.687411] (...ulation\dategrid.cpp:169) : [196] Tenor:16Y5M, Date:2032-07-05
+DEBUG    [2020-Apr-17 10:49:54.687411] (...ulation\dategrid.cpp:169) : [197] Tenor:16Y6M, Date:2032-08-05
+DEBUG    [2020-Apr-17 10:49:54.687411] (...ulation\dategrid.cpp:169) : [198] Tenor:16Y7M, Date:2032-09-06
+DEBUG    [2020-Apr-17 10:49:54.687411] (...ulation\dategrid.cpp:169) : [199] Tenor:16Y8M, Date:2032-10-05
+DEBUG    [2020-Apr-17 10:49:54.687411] (...ulation\dategrid.cpp:169) : [200] Tenor:16Y9M, Date:2032-11-05
+DEBUG    [2020-Apr-17 10:49:54.687411] (...ulation\dategrid.cpp:169) : [201] Tenor:16Y10M, Date:2032-12-06
+DEBUG    [2020-Apr-17 10:49:54.687411] (...ulation\dategrid.cpp:169) : [202] Tenor:16Y11M, Date:2033-01-05
+DEBUG    [2020-Apr-17 10:49:54.687411] (...ulation\dategrid.cpp:169) : [203] Tenor:17Y, Date:2033-02-07
+DEBUG    [2020-Apr-17 10:49:54.687411] (...ulation\dategrid.cpp:169) : [204] Tenor:17Y1M, Date:2033-03-07
+DEBUG    [2020-Apr-17 10:49:54.688412] (...ulation\dategrid.cpp:169) : [205] Tenor:17Y2M, Date:2033-04-05
+DEBUG    [2020-Apr-17 10:49:54.688412] (...ulation\dategrid.cpp:169) : [206] Tenor:17Y3M, Date:2033-05-05
+DEBUG    [2020-Apr-17 10:49:54.688412] (...ulation\dategrid.cpp:169) : [207] Tenor:17Y4M, Date:2033-06-06
+DEBUG    [2020-Apr-17 10:49:54.688412] (...ulation\dategrid.cpp:169) : [208] Tenor:17Y5M, Date:2033-07-05
+DEBUG    [2020-Apr-17 10:49:54.688412] (...ulation\dategrid.cpp:169) : [209] Tenor:17Y6M, Date:2033-08-05
+DEBUG    [2020-Apr-17 10:49:54.688412] (...ulation\dategrid.cpp:169) : [210] Tenor:17Y7M, Date:2033-09-05
+DEBUG    [2020-Apr-17 10:49:54.688412] (...ulation\dategrid.cpp:169) : [211] Tenor:17Y8M, Date:2033-10-05
+DEBUG    [2020-Apr-17 10:49:54.688412] (...ulation\dategrid.cpp:169) : [212] Tenor:17Y9M, Date:2033-11-07
+DEBUG    [2020-Apr-17 10:49:54.688412] (...ulation\dategrid.cpp:169) : [213] Tenor:17Y10M, Date:2033-12-05
+DEBUG    [2020-Apr-17 10:49:54.688412] (...ulation\dategrid.cpp:169) : [214] Tenor:17Y11M, Date:2034-01-05
+DEBUG    [2020-Apr-17 10:49:54.689411] (...ulation\dategrid.cpp:169) : [215] Tenor:18Y, Date:2034-02-06
+DEBUG    [2020-Apr-17 10:49:54.689411] (...ulation\dategrid.cpp:169) : [216] Tenor:18Y1M, Date:2034-03-06
+DEBUG    [2020-Apr-17 10:49:54.689411] (...ulation\dategrid.cpp:169) : [217] Tenor:18Y2M, Date:2034-04-05
+DEBUG    [2020-Apr-17 10:49:54.689411] (...ulation\dategrid.cpp:169) : [218] Tenor:18Y3M, Date:2034-05-05
+DEBUG    [2020-Apr-17 10:49:54.689411] (...ulation\dategrid.cpp:169) : [219] Tenor:18Y4M, Date:2034-06-05
+DEBUG    [2020-Apr-17 10:49:54.689411] (...ulation\dategrid.cpp:169) : [220] Tenor:18Y5M, Date:2034-07-05
+DEBUG    [2020-Apr-17 10:49:54.689411] (...ulation\dategrid.cpp:169) : [221] Tenor:18Y6M, Date:2034-08-07
+DEBUG    [2020-Apr-17 10:49:54.689411] (...ulation\dategrid.cpp:169) : [222] Tenor:18Y7M, Date:2034-09-05
+DEBUG    [2020-Apr-17 10:49:54.689411] (...ulation\dategrid.cpp:169) : [223] Tenor:18Y8M, Date:2034-10-05
+DEBUG    [2020-Apr-17 10:49:54.689411] (...ulation\dategrid.cpp:169) : [224] Tenor:18Y9M, Date:2034-11-06
+DEBUG    [2020-Apr-17 10:49:54.690412] (...ulation\dategrid.cpp:169) : [225] Tenor:18Y10M, Date:2034-12-05
+DEBUG    [2020-Apr-17 10:49:54.690412] (...ulation\dategrid.cpp:169) : [226] Tenor:18Y11M, Date:2035-01-05
+DEBUG    [2020-Apr-17 10:49:54.690412] (...ulation\dategrid.cpp:169) : [227] Tenor:19Y, Date:2035-02-05
+DEBUG    [2020-Apr-17 10:49:54.690412] (...ulation\dategrid.cpp:169) : [228] Tenor:19Y1M, Date:2035-03-05
+DEBUG    [2020-Apr-17 10:49:54.690412] (...ulation\dategrid.cpp:169) : [229] Tenor:19Y2M, Date:2035-04-05
+DEBUG    [2020-Apr-17 10:49:54.690412] (...ulation\dategrid.cpp:169) : [230] Tenor:19Y3M, Date:2035-05-07
+DEBUG    [2020-Apr-17 10:49:54.690412] (...ulation\dategrid.cpp:169) : [231] Tenor:19Y4M, Date:2035-06-05
+DEBUG    [2020-Apr-17 10:49:54.690412] (...ulation\dategrid.cpp:169) : [232] Tenor:19Y5M, Date:2035-07-05
+DEBUG    [2020-Apr-17 10:49:54.691412] (...ulation\dategrid.cpp:169) : [233] Tenor:19Y6M, Date:2035-08-06
+DEBUG    [2020-Apr-17 10:49:54.691412] (...ulation\dategrid.cpp:169) : [234] Tenor:19Y7M, Date:2035-09-05
+DEBUG    [2020-Apr-17 10:49:54.691412] (...ulation\dategrid.cpp:169) : [235] Tenor:19Y8M, Date:2035-10-05
+DEBUG    [2020-Apr-17 10:49:54.691412] (...ulation\dategrid.cpp:169) : [236] Tenor:19Y9M, Date:2035-11-05
+DEBUG    [2020-Apr-17 10:49:54.691412] (...ulation\dategrid.cpp:169) : [237] Tenor:19Y10M, Date:2035-12-05
+DEBUG    [2020-Apr-17 10:49:54.691412] (...ulation\dategrid.cpp:169) : [238] Tenor:19Y11M, Date:2036-01-07
+DEBUG    [2020-Apr-17 10:49:54.691412] (...ulation\dategrid.cpp:169) : [239] Tenor:20Y, Date:2036-02-05
+NOTICE   [2020-Apr-17 10:49:54.692412] (...app\reportwriter.cpp:246) : Write curves... 
+DEBUG    [2020-Apr-17 10:49:54.692412] (...app\reportwriter.cpp:266) : discount curve - EUR
+DEBUG    [2020-Apr-17 10:49:54.692412] (...app\reportwriter.cpp:266) : discount curve - GBP
+DEBUG    [2020-Apr-17 10:49:54.692412] (...app\reportwriter.cpp:292) : index curve - EUR-EONIA
+DEBUG    [2020-Apr-17 10:49:54.692412] (...app\reportwriter.cpp:292) : index curve - EUR-EURIBOR-3M
+DEBUG    [2020-Apr-17 10:49:54.692412] (...app\reportwriter.cpp:292) : index curve - GBP-LIBOR-3M
+DEBUG    [2020-Apr-17 10:49:54.692412] (...app\reportwriter.cpp:292) : index curve - GBP-LIBOR-6M
+DEBUG    [2020-Apr-17 10:49:54.692412] (...app\reportwriter.cpp:292) : index curve - GBP-SONIA
+DEBUG    [2020-Apr-17 10:49:54.692412] (...app\reportwriter.cpp:292) : index curve - USD-FedFunds
+DEBUG    [2020-Apr-17 10:49:54.692412] (...app\reportwriter.cpp:292) : index curve - USD-LIBOR-3M
+NOTICE   [2020-Apr-17 10:49:54.707412] (...\app\reportwriter.cpp:46) : portfolio valuation
+NOTICE   [2020-Apr-17 10:49:54.708413] (...app\reportwriter.cpp:102) : NPV file written
+NOTICE   [2020-Apr-17 10:49:54.732412] (...app\reportwriter.cpp:109) : Writing cashflow report for February 5th, 2016
+NOTICE   [2020-Apr-17 10:49:54.734412] (...app\reportwriter.cpp:240) : Cashflow report written
+NOTICE   [2020-Apr-17 10:49:54.735412] (...\orea\app\oreapp.cpp:454) : Initial reports written
+NOTICE   [2020-Apr-17 10:49:54.739412] (...\orea\app\oreapp.cpp:124) : skip base scenario
+NOTICE   [2020-Apr-17 10:49:54.740412] (...\orea\app\oreapp.cpp:139) : skip sensitivity analysis
+NOTICE   [2020-Apr-17 10:49:54.744412] (...\orea\app\oreapp.cpp:150) : skip stress test
+NOTICE   [2020-Apr-17 10:49:54.745412] (...\orea\app\oreapp.cpp:161) : skip parametric var
+NOTICE   [2020-Apr-17 10:49:54.746412] (...\orea\app\oreapp.cpp:173) : skip simulation
+NOTICE   [2020-Apr-17 10:49:54.749413] (...\orea\app\oreapp.cpp:212) : skip XVA reports
+NOTICE   [2020-Apr-17 10:49:54.769416] (...\orea\app\oreapp.cpp:225) : ORE done.

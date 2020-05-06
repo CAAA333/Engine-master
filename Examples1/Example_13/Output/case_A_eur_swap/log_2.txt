@@ -1,0 +1,2 @@
+WARNING  [2020-Apr-17 09:50:58.873319] (...ion\conventions.cpp:1057) : Exception parsing convention XML Node (id = COP-3M-SWAP) : must have period 1D
+WARNING  [2020-Apr-17 09:51:02.178318] (...rketdata\security.cpp:69) : No security-specific cpr found for Security/SECURITY_1

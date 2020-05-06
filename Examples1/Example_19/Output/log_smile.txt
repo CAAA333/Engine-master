@@ -1,0 +1,127 @@
+NOTICE   [2020-Apr-17 10:15:51.734412] (...a\app\parameters.cpp:104) : Parameters:
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = markets : fxcalibration = default
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = markets : lgmcalibration = default
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = markets : pricing = default
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = npv : active = Y
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = npv : baseCurrency = EUR
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = npv : outputFileName = npv_smile.csv
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = setup : asofDate = 2016-02-05
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = setup : conventionsFile = ../../Input/conventions.xml
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = setup : curveConfigFile = curveconfig.xml
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = setup : fixingDataFile = ../../Input/fixings_20160205.txt
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = setup : implyTodaysFixings = Y
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = setup : inputPath = Input
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = setup : logFile = log_smile.txt
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = setup : logMask = 31
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = setup : marketConfigFile = todaysmarket_smile.xml
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = setup : marketDataFile = market_20160205_smile.txt
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = setup : outputPath = Output
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = setup : portfolioFile = portfolio_swaption.xml
+NOTICE   [2020-Apr-17 10:15:51.736413] (...a\app\parameters.cpp:107) : group = setup : pricingEnginesFile = ../../Input/pricingengine.xml
+NOTICE   [2020-Apr-17 10:15:51.737413] (...s\orea\app\oreapp.cpp:85) : ORE starting
+NOTICE   [2020-Apr-17 10:15:51.742412] (...\orea\app\oreapp.cpp:918) : Building today's market
+WARNING  [2020-Apr-17 10:15:51.746412] (...ion\conventions.cpp:1057) : Exception parsing convention XML Node (id = COP-3M-SWAP) : must have period 1D
+NOTICE   [2020-Apr-17 10:15:51.774412] (...\orea\app\oreapp.cpp:936) : Load curve configurations from file
+NOTICE   [2020-Apr-17 10:15:51.777413] (...ketdata\csvloader.cpp:75) : CSVLoader loading from Input/market_20160205_smile.txt
+NOTICE   [2020-Apr-17 10:15:51.785413] (...etdata\csvloader.cpp:116) : CSVLoader completed processing Input/market_20160205_smile.txt
+NOTICE   [2020-Apr-17 10:15:51.786412] (...ketdata\csvloader.cpp:64) : CSVLoader loaded 349 market data points for February 5th, 2016
+NOTICE   [2020-Apr-17 10:15:51.786412] (...ketdata\csvloader.cpp:75) : CSVLoader loading from Input/../../Input/fixings_20160205.txt
+NOTICE   [2020-Apr-17 10:15:51.823411] (...etdata\csvloader.cpp:116) : CSVLoader completed processing Input/../../Input/fixings_20160205.txt
+NOTICE   [2020-Apr-17 10:15:51.823411] (...ketdata\csvloader.cpp:69) : CSVLoader loaded 8691 fixings
+NOTICE   [2020-Apr-17 10:15:51.823411] (...ketdata\csvloader.cpp:71) : CSVLoader complete.
+NOTICE   [2020-Apr-17 10:15:51.873412] (...data\todaysmarket.cpp:72) : Todays Market Loading Fixings
+NOTICE   [2020-Apr-17 10:15:52.290412] (...arketdata\fixings.cpp:59) : Added 8691 of 8691 fixings in 0.417000 seconds
+NOTICE   [2020-Apr-17 10:15:52.290412] (...data\todaysmarket.cpp:74) : Todays Market Loading Fixing done.
+NOTICE   [2020-Apr-17 10:15:52.290412] (...data\todaysmarket.cpp:79) : Todays Market Loading Dividends
+NOTICE   [2020-Apr-17 10:15:52.290412] (...data\todaysmarket.cpp:81) : Todays Market Loading Dividends done.
+NOTICE   [2020-Apr-17 10:15:52.290412] (...ata\todaysmarket.cpp:110) : Build objects in TodaysMarket configuration default
+NOTICE   [2020-Apr-17 10:15:52.290412] (...ata\todaysmarket.cpp:131) : Loading spec Yield/EUR/EUR1D
+NOTICE   [2020-Apr-17 10:15:52.290412] (...ata\todaysmarket.cpp:144) : Building YieldCurve for asof February 5th, 2016
+NOTICE   [2020-Apr-17 10:15:52.297412] (...tdata\yieldcurve.cpp:163) : Yield curve Yield/EUR/EUR1D built
+NOTICE   [2020-Apr-17 10:15:52.297412] (...ata\todaysmarket.cpp:165) : Adding YieldCurve(EUR) with spec Yield/EUR/EUR1D to configuration default
+NOTICE   [2020-Apr-17 10:15:52.297412] (...ata\todaysmarket.cpp:176) : Adding Index(EUR-EONIA) with spec Yield/EUR/EUR1D to configuration default
+NOTICE   [2020-Apr-17 10:15:52.297412] (...ata\todaysmarket.cpp:868) : Loading spec Yield/EUR/EUR1D done.
+NOTICE   [2020-Apr-17 10:15:52.297412] (...ata\todaysmarket.cpp:131) : Loading spec Yield/EUR/EUR3M
+NOTICE   [2020-Apr-17 10:15:52.297412] (...ata\todaysmarket.cpp:144) : Building YieldCurve for asof February 5th, 2016
+NOTICE   [2020-Apr-17 10:15:52.314412] (...tdata\yieldcurve.cpp:163) : Yield curve Yield/EUR/EUR3M built
+NOTICE   [2020-Apr-17 10:15:52.314412] (...ata\todaysmarket.cpp:176) : Adding Index(EUR-EURIBOR-3M) with spec Yield/EUR/EUR3M to configuration default
+NOTICE   [2020-Apr-17 10:15:52.314412] (...ata\todaysmarket.cpp:868) : Loading spec Yield/EUR/EUR3M done.
+NOTICE   [2020-Apr-17 10:15:52.314412] (...ata\todaysmarket.cpp:131) : Loading spec Yield/EUR/EUR6M
+NOTICE   [2020-Apr-17 10:15:52.314412] (...ata\todaysmarket.cpp:144) : Building YieldCurve for asof February 5th, 2016
+NOTICE   [2020-Apr-17 10:15:52.323412] (...tdata\yieldcurve.cpp:163) : Yield curve Yield/EUR/EUR6M built
+NOTICE   [2020-Apr-17 10:15:52.323412] (...ata\todaysmarket.cpp:176) : Adding Index(EUR-EURIBOR-6M) with spec Yield/EUR/EUR6M to configuration default
+NOTICE   [2020-Apr-17 10:15:52.323412] (...ata\todaysmarket.cpp:852) : building swap indices...
+NOTICE   [2020-Apr-17 10:15:52.323412] (...ata\todaysmarket.cpp:858) : Added SwapIndex EUR-CMS-1Y with DiscountingIndex EUR-EONIA
+NOTICE   [2020-Apr-17 10:15:52.323412] (...ata\todaysmarket.cpp:858) : Added SwapIndex EUR-CMS-30Y with DiscountingIndex EUR-EONIA
+NOTICE   [2020-Apr-17 10:15:52.323412] (...ata\todaysmarket.cpp:868) : Loading spec Yield/EUR/EUR6M done.
+NOTICE   [2020-Apr-17 10:15:52.323412] (...ata\todaysmarket.cpp:131) : Loading spec SwaptionVolatility/EUR/EUR_SW_SMILE
+NOTICE   [2020-Apr-17 10:15:52.323412] (...ata\todaysmarket.cpp:247) : Building Swaption Volatility for asof February 5th, 2016
+NOTICE   [2020-Apr-17 10:15:52.324412] (...ericyieldvolcurve.cpp:97) : GenericYieldVolCurve: read 154 vols
+NOTICE   [2020-Apr-17 10:15:52.325411] (...ricyieldvolcurve.cpp:142) : Building Cube for config EUR_SW_SMILE
+NOTICE   [2020-Apr-17 10:15:52.325411] (...ricyieldvolcurve.cpp:166) : vol cube smile option tenors 3
+NOTICE   [2020-Apr-17 10:15:52.325411] (...ricyieldvolcurve.cpp:167) : vol cube smile swap tenors 2
+NOTICE   [2020-Apr-17 10:15:52.325411] (...ricyieldvolcurve.cpp:168) : vol cube strike spreads 5
+NOTICE   [2020-Apr-17 10:15:52.325411] (...ricyieldvolcurve.cpp:201) : Read 24 quotes for VolCube.
+NOTICE   [2020-Apr-17 10:15:52.326412] (...ata\todaysmarket.cpp:260) : Adding SwaptionVol (EUR) with spec SwaptionVolatility/EUR/EUR_SW_SMILE to configuration default
+NOTICE   [2020-Apr-17 10:15:52.326412] (...ata\todaysmarket.cpp:868) : Loading spec SwaptionVolatility/EUR/EUR_SW_SMILE done.
+NOTICE   [2020-Apr-17 10:15:52.326412] (...ata\todaysmarket.cpp:875) : Loading 0 CurveSpecs done.
+NOTICE   [2020-Apr-17 10:15:52.326412] (...\orea\app\oreapp.cpp:969) : Today's market built
+NOTICE   [2020-Apr-17 10:15:52.328412] (...\orea\app\oreapp.cpp:305) : Building an engine factory
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:81) : Building EngineFactory
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:DiscountedCashflows and engine:DiscountingSwapEngine
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:DiscountedCashflows and engine:DiscountingSwapEngineOptimised
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:DiscountedCashflows and engine:DiscountingCrossCurrencySwapEngine
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:BlackBachelier and engine:BlackBachelierSwaptionEngine
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:LGM and engine:Grid
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:DiscountedCashflows and engine:DiscountingFxForwardEngine
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:GarmanKohlhagen and engine:AnalyticEuropeanEngine
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:IborCapModel and engine:IborCapEngine
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:BlackOrBachelier and engine:BlackIborCouponPricer
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:CapFlooredYYModel and engine:CapFlooredYYCouponPricer
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:BrigoMercurio and engine:Analytic
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:YYCapModel and engine:YYCapEngine
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:DiscountedCashflows and engine:DiscountingEquityForwardEngine
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:BlackScholesMerton and engine:AnalyticEuropeanEngine
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:DiscountedCashflows and engine:DiscountingRiskyBondEngine
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:Hagan and engine:Analytic
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:Hagan and engine:Numerical
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:LinearTSR and engine:LinearTSRPricer
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:DiscountedCashflows and engine:MidPointCdsEngine
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:DiscountedCashflows and engine:DiscountingCommodityForwardEngine
+NOTICE   [2020-Apr-17 10:15:52.332413] (...lio\enginefactory.cpp:90) : EngineFactory registering builder for model:BlackScholes and engine:AnalyticEuropeanEngine
+NOTICE   [2020-Apr-17 10:15:52.332413] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type Fixed
+NOTICE   [2020-Apr-17 10:15:52.332413] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type ZeroCouponFixed
+NOTICE   [2020-Apr-17 10:15:52.333412] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type Floating
+NOTICE   [2020-Apr-17 10:15:52.333412] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type Cashflow
+NOTICE   [2020-Apr-17 10:15:52.333412] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type CPI
+NOTICE   [2020-Apr-17 10:15:52.333412] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type YY
+NOTICE   [2020-Apr-17 10:15:52.333412] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type CMS
+NOTICE   [2020-Apr-17 10:15:52.333412] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type CMSSpread
+NOTICE   [2020-Apr-17 10:15:52.333412] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type DigitalCMSSpread
+NOTICE   [2020-Apr-17 10:15:52.333412] (...io\enginefactory.cpp:120) : EngineFactory registering builder for leg type Equity
+NOTICE   [2020-Apr-17 10:15:52.333412] (...\orea\app\oreapp.cpp:318) : Engine factory built
+NOTICE   [2020-Apr-17 10:15:52.336411] (...\orea\app\oreapp.cpp:331) : Building portfolio
+NOTICE   [2020-Apr-17 10:15:52.336411] (...rtfolio\portfolio.cpp:45) : Parsing XML Input/portfolio_swaption.xml
+NOTICE   [2020-Apr-17 10:15:52.337412] (...rtfolio\portfolio.cpp:47) : Loaded XML file
+NOTICE   [2020-Apr-17 10:15:52.337412] (...rtfolio\portfolio.cpp:89) : Finished Parsing XML doc
+NOTICE   [2020-Apr-17 10:15:52.337412] (...tfolio\portfolio.cpp:126) : Building Portfolio of size 4
+NOTICE   [2020-Apr-17 10:15:52.337412] (...rtfolio\swaption.cpp:130) : Building European Swaption Swaption_1
+NOTICE   [2020-Apr-17 10:15:52.337412] (...builders\swaption.cpp:41) : Build BachelierSwaptionEngine for currency EUR
+NOTICE   [2020-Apr-17 10:15:52.337412] (...rtfolio\swaption.cpp:130) : Building European Swaption Swaption_2
+NOTICE   [2020-Apr-17 10:15:52.338412] (...rtfolio\swaption.cpp:130) : Building European Swaption Swaption_3
+NOTICE   [2020-Apr-17 10:15:52.338412] (...rtfolio\swaption.cpp:130) : Building European Swaption Swaption_4
+NOTICE   [2020-Apr-17 10:15:52.338412] (...tfolio\portfolio.cpp:137) : Built Portfolio. Size now 4
+NOTICE   [2020-Apr-17 10:15:52.338412] (...\orea\app\oreapp.cpp:343) : Portfolio built
+NOTICE   [2020-Apr-17 10:15:52.340412] (...\orea\app\oreapp.cpp:407) : Writing initial reports
+NOTICE   [2020-Apr-17 10:15:52.341412] (...\orea\app\oreapp.cpp:421) : skip curve report
+NOTICE   [2020-Apr-17 10:15:52.344412] (...\app\reportwriter.cpp:46) : portfolio valuation
+NOTICE   [2020-Apr-17 10:15:52.358412] (...app\reportwriter.cpp:102) : NPV file written
+NOTICE   [2020-Apr-17 10:15:52.361412] (...\orea\app\oreapp.cpp:450) : skip cashflow generation
+NOTICE   [2020-Apr-17 10:15:52.361412] (...\orea\app\oreapp.cpp:454) : Initial reports written
+NOTICE   [2020-Apr-17 10:15:52.362412] (...\orea\app\oreapp.cpp:124) : skip base scenario
+NOTICE   [2020-Apr-17 10:15:52.364412] (...\orea\app\oreapp.cpp:139) : skip sensitivity analysis
+NOTICE   [2020-Apr-17 10:15:52.370411] (...\orea\app\oreapp.cpp:150) : skip stress test
+NOTICE   [2020-Apr-17 10:15:52.372411] (...\orea\app\oreapp.cpp:161) : skip parametric var
+NOTICE   [2020-Apr-17 10:15:52.373412] (...\orea\app\oreapp.cpp:173) : skip simulation
+NOTICE   [2020-Apr-17 10:15:52.375412] (...\orea\app\oreapp.cpp:212) : skip XVA reports
+NOTICE   [2020-Apr-17 10:15:52.376412] (...\orea\app\oreapp.cpp:225) : ORE done.
